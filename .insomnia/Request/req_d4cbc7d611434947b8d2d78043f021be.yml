@@ -1,10 +1,10 @@
 _id: req_d4cbc7d611434947b8d2d78043f021be
 type: Request
 parentId: fld_0c9b6777db254f0b9f96691054d2492b
-modified: 1651830410796
+modified: 1653580948215
 created: 1651830332327
-url: "{{ _.base_url }}/files/galleries"
-name: /files/galleries
+url: "{{ _.base_url }}/files/team-files"
+name: /files/team-files
 description: ""
 method: GET
 body: {}
@@ -12,6 +12,11 @@ parameters:
   - id: pair_21b9159cab4049bd95487f4ba0c81c14
     name: teamId
     value: "1"
+    description: ""
+    disabled: false
+  - id: pair_7cda33f8d23341889a42d5479bac0cdb
+    name: type
+    value: gallery
     description: ""
 headers: []
 authentication: {}

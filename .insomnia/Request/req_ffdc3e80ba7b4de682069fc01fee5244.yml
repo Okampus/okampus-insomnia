@@ -1,10 +1,10 @@
 _id: req_ffdc3e80ba7b4de682069fc01fee5244
 type: Request
 parentId: fld_0c9b6777db254f0b9f96691054d2492b
-modified: 1651830315450
+modified: 1653580913709
 created: 1651763760520
-url: "{{ _.base_url }}/files/galleries"
-name: /files/galleries
+url: "{{ _.base_url }}/files/team-files"
+name: /files/team-files
 description: ""
 method: POST
 body:
@@ -22,6 +22,10 @@ body:
       value: "1"
       description: ""
       disabled: false
+    - id: pair_8ae1fc1c387d4979b4cf8cc9687b8b83
+      name: type
+      value: gallery
+      description: ""
 parameters: []
 headers:
   - name: Content-Type

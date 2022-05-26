@@ -1,10 +1,10 @@
 _id: req_087e8027eee94ab69626bba87c2212cf
 type: Request
 parentId: fld_0c9b6777db254f0b9f96691054d2492b
-modified: 1653577763041
+modified: 1653580974868
 created: 1651763760531
-url: "{{ _.base_url }}/files/galleries/iBK13BhJxqN2SGWfPn9-3b-LPtbC2WIh"
-name: /files/galleries/{galleryId}
+url: "{{ _.base_url }}/files/team-files/FO_NLsjwx-cPjjW59IpF_CbG3A8tcMmV"
+name: /files/team-files/{teamFileId}
 description: ""
 method: GET
 body: {}
