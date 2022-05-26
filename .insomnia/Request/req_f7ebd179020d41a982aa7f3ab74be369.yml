@@ -1,9 +1,9 @@
 _id: req_f7ebd179020d41a982aa7f3ab74be369
 type: Request
 parentId: wrk_2defc8b6b23c4abe9acffc1601191706
-modified: 1647191698296
+modified: 1653579176811
 created: 1643039526361
-url: http://localhost:8081/
+url: "{{ _.base_url }}/"
 name: /
 description: ""
 method: GET
