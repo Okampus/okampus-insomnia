@@ -1,12 +1,12 @@
 _id: req_0b76f03e1e844ec3b67094f9433c284f
 type: Request
 parentId: fld_c04d9070836343c99f41bc49635fad44
-modified: 1647191680199
+modified: 1653578528286
 created: 1643039526116
 url: "{{ _.base_url }}/files/info-docs/{% response 'body',
-  'req_e6a7623f4c774ddd920577e722e7e0d2', 'b64::JC5pbmZvRG9jSWQ=::46b',
+  'req_8452f6eb6f434f4a82c13c4d83630dd1', 'b64::JC5pbmZvRG9jSWQ=::46b',
   'always', 60 %}"
-name: /files/info-docs/{id}
+name: /files/info-docs/{infoDocId}
 description: ""
 method: PATCH
 body:

@@ -1,9 +1,11 @@
 _id: req_f1b3928b21404637a0c9994f389c7769
 type: Request
 parentId: fld_a9d9733c4e094c09bc2e7a57fcecd7d6
-modified: 1653567038373
+modified: 1653578110348
 created: 1643039526267
-url: "{{ _.base_url }}/badges/3"
+url: "{{ _.base_url }}/badges/{% response 'body',
+  'req_d1b41ed24f88432bae6a9282b2f5105a', 'b64::JC5iYWRnZUlk::46b', 'always', 60
+  %}"
 name: /badges/{badgeId}
 description: ""
 method: DELETE

@@ -1,10 +1,10 @@
 _id: req_a9e754dbd0ae40c4ad2642cbe7ce5d86
 type: Request
 parentId: fld_f0db95087f52485caec7c0d0b795ba23
-modified: 1647191680099
+modified: 1653577607392
 created: 1643107769866
 url: "{{ _.base_url }}/blogs/2"
-name: /blogs/:id
+name: /blogs/{blogId}
 description: ""
 method: DELETE
 body: {}

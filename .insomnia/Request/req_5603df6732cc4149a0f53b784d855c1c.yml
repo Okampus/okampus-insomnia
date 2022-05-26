@@ -1,7 +1,7 @@
 _id: req_5603df6732cc4149a0f53b784d855c1c
 type: Request
 parentId: fld_c7314aa81b6643e8b1164e2014f7d3bf
-modified: 1648247377931
+modified: 1653578245629
 created: 1645388922765
 url: "{{ _.base_url }}/wikis"
 name: /wikis
@@ -9,11 +9,11 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: >-
+  text: |-
     {
-    	"title": "OUIIOUOUIUIOUI",
+    	"title": "This is a title",
     	"category": "aide",
-    	"body": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"This is some very qualitative reply\"}]}]}"
+    	"body": "This is some very qualitative content"
     }
 parameters: []
 headers:

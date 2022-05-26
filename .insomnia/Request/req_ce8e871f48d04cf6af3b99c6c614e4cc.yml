@@ -1,7 +1,7 @@
 _id: req_ce8e871f48d04cf6af3b99c6c614e4cc
 type: Request
 parentId: fld_675a2eeb77404c8f888e7fc8af370c8c
-modified: 1647191680202
+modified: 1653578691803
 created: 1645108356891
 url: "{{ _.base_url }}/restaurant/daily-menus"
 name: /restaurant/daily-menus
@@ -22,7 +22,7 @@ headers:
     value: application/json
     id: pair_daf9a186975942278cac338c8abd1de5
 authentication: {}
-metaSortKey: 100
+metaSortKey: -50
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

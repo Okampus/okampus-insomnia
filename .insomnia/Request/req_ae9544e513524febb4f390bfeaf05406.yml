@@ -1,10 +1,10 @@
 _id: req_ae9544e513524febb4f390bfeaf05406
 type: Request
 parentId: fld_8244099e35d346f583b91c3a99df0018
-modified: 1647191680123
+modified: 1653577740801
 created: 1643102467175
 url: "{{ _.base_url }}/favorites/1"
-name: /favorites/:contentId
+name: /favorites/{contentId}
 description: ""
 method: DELETE
 body: {}

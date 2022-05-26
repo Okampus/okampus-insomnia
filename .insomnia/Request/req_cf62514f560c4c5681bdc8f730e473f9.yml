@@ -1,17 +1,17 @@
 _id: req_cf62514f560c4c5681bdc8f730e473f9
 type: Request
 parentId: fld_675a2eeb77404c8f888e7fc8af370c8c
-modified: 1647191680202
+modified: 1653577993243
 created: 1645108356905
 url: "{{ _.base_url }}/restaurant/daily-menus/2022-02-17"
-name: /restaurant/daily-menus/:date
+name: /restaurant/daily-menus/{date}
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: 400
+metaSortKey: 150
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

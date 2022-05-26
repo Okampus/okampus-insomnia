@@ -1,10 +1,10 @@
 _id: req_ce00036d59514a61bc41b6a9ddcc12a7
 type: Request
 parentId: fld_4e7bd446b6fd428d9e6185bba5df119b
-modified: 1647191680202
+modified: 1653577980784
 created: 1645092522642
 url: "{{ _.base_url }}/restaurant/daily-info/2022-02-17"
-name: /restaurant/daily-info/:date
+name: /restaurant/daily-info/{date}
 description: ""
 method: DELETE
 body: {}

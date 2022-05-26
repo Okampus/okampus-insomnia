@@ -1,7 +1,7 @@
 _id: req_247f268aa70348aabb71f8c1b5eddd5f
 type: Request
 parentId: fld_91752c1f21704ccc9f8073df6cd5dff6
-modified: 1651832086713
+modified: 1653578464932
 created: 1643039754904
 url: "{{ _.base_url }}/contents/replies"
 name: /contents/replies
@@ -9,10 +9,10 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: >-
+  text: |-
     {
     	"parentId": 1,
-    	"body": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"This is some very qualitative reply\"}]}]}",
+    	"body": "This is some very qualitative reply",
     	"contentMasterType": "thread"
     }
 parameters: []

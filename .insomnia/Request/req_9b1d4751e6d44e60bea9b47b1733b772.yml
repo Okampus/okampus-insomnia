@@ -1,12 +1,12 @@
 _id: req_9b1d4751e6d44e60bea9b47b1733b772
 type: Request
 parentId: fld_0b74fe2b74f643dd8ad74f5dd2290131
-modified: 1647191680200
+modified: 1653577796606
 created: 1643039526151
 url: "{{ _.base_url }}/files/profile-images/{% response 'body',
   'req_2b33e377c430499ca34abfda24acecbc', 'b64::JC5wcm9maWxlSW1hZ2VJZA==::46b',
   'no-history', 60 %}"
-name: /files/profile-images/{id}
+name: /files/profile-images/{profileImageId}
 description: ""
 method: DELETE
 body: {}

@@ -1,10 +1,10 @@
 _id: req_9705fb02a752471eb2e735460dec09da
 type: Request
 parentId: fld_da4d50404b104c3f97001dd5c41636ff
-modified: 1647191680203
+modified: 1653578012645
 created: 1645114351994
 url: "{{ _.base_url }}/restaurant/food/1"
-name: /restaurant/food/:id
+name: /restaurant/food/{foodId}
 description: ""
 method: DELETE
 body: {}

@@ -1,7 +1,7 @@
 _id: req_eefc544a9f6048fab42b7545f8bcc4ff
 type: Request
 parentId: fld_f0db95087f52485caec7c0d0b795ba23
-modified: 1647191680099
+modified: 1653578258906
 created: 1643107769826
 url: "{{ _.base_url }}/blogs"
 name: /blogs
@@ -9,13 +9,13 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: >-
+  text: |-
     {
-    	"title": "ahah ceci est un titre !",
+    	"title": "This is a title",
     	"category": "assos",
     	"isDraft": true,
     	"tags": [],
-    	"body": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"This is some very qualitative blog article ahahahah\"}]}]}"
+    	"body": "This is some very qualitative blog article ahahahah"
     }
 parameters: []
 headers:
@@ -23,7 +23,7 @@ headers:
     value: application/json
     id: pair_db6dcf547c994a819926c7861500f3b7
 authentication: {}
-metaSortKey: 100
+metaSortKey: -50
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

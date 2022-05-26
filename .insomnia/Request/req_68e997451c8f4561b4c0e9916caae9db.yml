@@ -1,10 +1,10 @@
 _id: req_68e997451c8f4561b4c0e9916caae9db
 type: Request
 parentId: fld_f42f05851c684b0c9553e574fe528fdb
-modified: 1647191680133
+modified: 1653578152873
 created: 1643106802770
 url: "{{ _.base_url }}/threads/1/assignees"
-name: /threads/:id/assignees
+name: /threads/{threadId}/assignees
 description: ""
 method: POST
 body:

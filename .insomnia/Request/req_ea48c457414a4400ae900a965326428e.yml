@@ -1,10 +1,10 @@
 _id: req_ea48c457414a4400ae900a965326428e
 type: Request
 parentId: fld_f42f05851c684b0c9553e574fe528fdb
-modified: 1652784937961
+modified: 1653578291434
 created: 1643106542640
 url: "{{ _.base_url }}/threads/2"
-name: /threads/:id
+name: /threads/{threadId}
 description: ""
 method: PATCH
 body:

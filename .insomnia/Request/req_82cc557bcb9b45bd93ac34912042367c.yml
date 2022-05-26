@@ -1,10 +1,10 @@
 _id: req_82cc557bcb9b45bd93ac34912042367c
 type: Request
 parentId: fld_0cea839ba5414cd18025931517daa569
-modified: 1647191680135
+modified: 1653577644376
 created: 1643104451537
 url: "{{ _.base_url }}/votes/1"
-name: /votes/:contentId
+name: /votes/{contentId}
 description: ""
 method: GET
 body: {}

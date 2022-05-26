@@ -1,10 +1,10 @@
 _id: req_75b323a291f94dffbb9b6073e0ff040a
 type: Request
 parentId: fld_91752c1f21704ccc9f8073df6cd5dff6
-modified: 1647191680118
+modified: 1653577628514
 created: 1643101334457
 url: "{{ _.base_url }}/contents/9"
-name: /contents/:id
+name: /contents/{contentId}
 description: ""
 method: DELETE
 body: {}

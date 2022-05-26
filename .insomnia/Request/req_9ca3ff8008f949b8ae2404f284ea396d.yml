@@ -1,10 +1,10 @@
 _id: req_9ca3ff8008f949b8ae2404f284ea396d
 type: Request
 parentId: fld_905fd81944e245df91cf295574ed800d
-modified: 1647191680111
+modified: 1653577836138
 created: 1643039526327
 url: "{{ _.base_url }}/contacts/1"
-name: /contacts/{id}
+name: /contacts/{contactId}
 description: ""
 method: DELETE
 body: {}

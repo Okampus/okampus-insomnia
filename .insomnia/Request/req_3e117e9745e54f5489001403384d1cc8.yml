@@ -1,10 +1,10 @@
 _id: req_3e117e9745e54f5489001403384d1cc8
 type: Request
 parentId: fld_c7314aa81b6643e8b1164e2014f7d3bf
-modified: 1647191680136
+modified: 1653577730820
 created: 1645388922787
 url: "{{ _.base_url }}/wikis/1"
-name: /wikis/:id
+name: /wikis/{wikiId}
 description: ""
 method: DELETE
 body: {}

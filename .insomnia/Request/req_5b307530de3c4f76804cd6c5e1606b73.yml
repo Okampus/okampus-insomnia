@@ -1,7 +1,7 @@
 _id: req_5b307530de3c4f76804cd6c5e1606b73
 type: Request
 parentId: fld_b5beee5dfbbc443abb3ed90c89d58514
-modified: 1648038889342
+modified: 1653578553020
 created: 1643039526085
 url: "{{ _.base_url }}/files/study-docs"
 name: /files/study-docs
@@ -38,11 +38,7 @@ body:
       value: "7"
       description: ""
       disabled: false
-parameters:
-  - id: pair_c19089ee50e54458b1f23b793794f168
-    name: ""
-    value: ""
-    description: ""
+parameters: []
 headers:
   - name: Content-Type
     value: multipart/form-data

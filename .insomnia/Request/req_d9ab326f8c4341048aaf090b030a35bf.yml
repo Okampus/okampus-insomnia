@@ -1,10 +1,10 @@
 _id: req_d9ab326f8c4341048aaf090b030a35bf
 type: Request
 parentId: fld_be5fe17407b247a980b2b55b965c6061
-modified: 1647191680199
+modified: 1653577750349
 created: 1643039526134
 url: "{{ _.base_url }}/files/attachments/kMG0Ik5I-DxAX6_RYlY4MXrXRAYc4sPx"
-name: /files/attachments/{id}
+name: /files/attachments/{attachmentId}
 description: ""
 method: GET
 body: {}

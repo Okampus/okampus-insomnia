@@ -1,12 +1,12 @@
 _id: req_2b4d48e585754bb48deff663f5a20274
 type: Request
 parentId: fld_be5fe17407b247a980b2b55b965c6061
-modified: 1647191680199
+modified: 1653578498451
 created: 1643039526137
 url: "{{ _.base_url }}/files/attachments/{% response 'body',
-  'req_2bb3d8b2bcd9418c8d6920800d3761c6', 'b64::JC5hdHRhY2htZW50SWQ=::46b',
+  'req_d9ab326f8c4341048aaf090b030a35bf', 'b64::JC5hdHRhY2htZW50SWQ=::46b',
   'no-history', 60 %}"
-name: /files/attachments/{id}
+name: /files/attachments/{attachmentId}
 description: ""
 method: DELETE
 body: {}

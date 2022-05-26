@@ -1,10 +1,10 @@
 _id: req_b0d49dcb56c84fc095692f40a676103d
 type: Request
 parentId: fld_e1647c9c41c9499bae95754079ba22cf
-modified: 1647191680129
+modified: 1653578643996
 created: 1643039526182
 url: "{{ _.base_url }}/subjects"
-name: /subjects/
+name: /subjects
 description: ""
 method: GET
 body: {}

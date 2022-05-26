@@ -1,10 +1,10 @@
 _id: req_8dd48953f9c44e98ba7aae7f22433c96
 type: Request
 parentId: fld_04c1310d7d7642359d8e6311a666cb6b
-modified: 1651927993526
+modified: 1653578626049
 created: 1645025223699
 url: "{{ _.base_url }}/teams/teams"
-name: /teams/teams/
+name: /teams/teams
 description: ""
 method: GET
 body: {}

@@ -1,7 +1,7 @@
 _id: req_a02e1425a0cb4b1eba50a1d3e521b2cb
 type: Request
 parentId: fld_d3bd287cbbb44e648de25d2141a703b9
-modified: 1653398957658
+modified: 1653578030148
 created: 1643039525910
 url: "{{ base_url }}/auth/refresh-token"
 name: /auth/refresh-token
@@ -9,9 +9,9 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: >-
+  text: |-
     {
-    	"refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2MTU5ODM3ZDYxN2RiOWI3OWUyMzdlMDQiLCJ1c2VybmFtZSI6InVzcm5fZWxsaW90IiwiaWF0IjoxNjMzMjU2NDA1LCJleHAiOjE2NjQ4MTQwMDV9.5U7C9cgWYfHF-WLvqliQEgDaewljm1-D8U33BjFq9uI"
+    	"refreshToken": ""
     }
 parameters: []
 headers:

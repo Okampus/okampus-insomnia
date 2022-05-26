@@ -1,12 +1,12 @@
 _id: req_a4b19b003aec453dae943e59a5a44992
 type: Request
 parentId: fld_b5beee5dfbbc443abb3ed90c89d58514
-modified: 1647191680201
+modified: 1653578571249
 created: 1643039526091
 url: "{{ _.base_url }}/files/study-docs/{% response 'body',
   'req_4923be3255cf4c1880fa5aaf29b163ef', 'b64::JC5zdHVkeURvY0lk::46b',
   'always', 60 %}"
-name: /files/study-docs/{id}
+name: /files/study-docs/{studyDocId}
 description: ""
 method: PATCH
 body:

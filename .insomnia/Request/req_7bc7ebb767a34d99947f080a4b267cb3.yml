@@ -1,7 +1,7 @@
 _id: req_7bc7ebb767a34d99947f080a4b267cb3
 type: Request
 parentId: fld_d3bd287cbbb44e648de25d2141a703b9
-modified: 1653502450167
+modified: 1653578027829
 created: 1652885675869
 url: "{{ base_url }}/auth/login"
 name: /auth/login-aaa
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"username": "bbb",
+    	"username": "aaa",
     	"password": "root"
     }
 parameters: []
@@ -19,10 +19,6 @@ headers:
   - name: Content-Type
     value: application/json
     id: pair_a709dd0229bc4c6c885d63c2296834cb
-  - id: pair_41808fa0f9be4fe0bf99ae1b64d0b16d
-    name: ""
-    value: ""
-    description: ""
 authentication: {}
 metaSortKey: 275
 isPrivate: false

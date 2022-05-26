@@ -1,12 +1,12 @@
 _id: req_f90e2f3b2d3746a6baedcf2bbeec810d
 type: Request
 parentId: fld_0c9b6777db254f0b9f96691054d2492b
-modified: 1651830483846
+modified: 1653577770493
 created: 1651763760537
 url: "{{ _.base_url }}/files/galleries/{% response 'body',
   'req_087e8027eee94ab69626bba87c2212cf', 'b64::JC5nYWxsZXJ5SW1hZ2VJZA==::46b',
   'no-history', 60 %}"
-name: /files/galleries/{id}
+name: /files/galleries/{galleryId}
 description: ""
 method: DELETE
 body: {}

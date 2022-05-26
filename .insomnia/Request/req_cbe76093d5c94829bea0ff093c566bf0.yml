@@ -1,10 +1,10 @@
 _id: req_cbe76093d5c94829bea0ff093c566bf0
 type: Request
 parentId: fld_b7366e44f59e444e9bcbce3157c3d390
-modified: 1647191680125
+modified: 1653578298153
 created: 1643102573202
 url: "{{ _.base_url }}/reactions/1"
-name: /reactions/:contentId
+name: /reactions/{contentId}
 description: ""
 method: DELETE
 body:

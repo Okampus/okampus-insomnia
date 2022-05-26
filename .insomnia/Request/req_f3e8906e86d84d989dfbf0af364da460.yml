@@ -1,10 +1,10 @@
 _id: req_f3e8906e86d84d989dfbf0af364da460
 type: Request
 parentId: fld_f0db95087f52485caec7c0d0b795ba23
-modified: 1647191680099
+modified: 1653578278485
 created: 1643107769853
 url: "{{ _.base_url }}/blogs/1/tags"
-name: /blogs/:id/tags
+name: /blogs/{blogId}/tags
 description: ""
 method: POST
 body:
@@ -12,7 +12,7 @@ body:
   text: |-
     {
     	"tags": ["tag-2"]
-    	}
+    }
 parameters: []
 headers:
   - name: Content-Type

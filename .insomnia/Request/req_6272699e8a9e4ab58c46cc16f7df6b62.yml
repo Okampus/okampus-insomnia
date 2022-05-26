@@ -1,17 +1,17 @@
 _id: req_6272699e8a9e4ab58c46cc16f7df6b62
 type: Request
 parentId: fld_f0db95087f52485caec7c0d0b795ba23
-modified: 1647191680099
+modified: 1653578276635
 created: 1643107769849
 url: "{{ _.base_url }}/blogs/1"
-name: /blogs/:id
+name: /blogs/{blogId}
 description: ""
 method: PATCH
 body:
   mimeType: application/json
   text: |-
     {
-    	"title": "Titre titre titre titre 2!"
+    	"title": "This is a new title!"
     }
 parameters: []
 headers:

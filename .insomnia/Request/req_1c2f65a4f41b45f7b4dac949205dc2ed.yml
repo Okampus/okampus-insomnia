@@ -1,10 +1,10 @@
 _id: req_1c2f65a4f41b45f7b4dac949205dc2ed
 type: Request
 parentId: fld_5140addae13b448e8e58fc3b2be5536f
-modified: 1647191680127
+modified: 1653578225391
 created: 1643104833600
-url: "{{ _.base_url }}/reports/horizon-admin"
-name: /reports/:userId
+url: "{{ _.base_url }}/reports/okampus-admin"
+name: /reports/{userId}
 description: ""
 method: POST
 body:

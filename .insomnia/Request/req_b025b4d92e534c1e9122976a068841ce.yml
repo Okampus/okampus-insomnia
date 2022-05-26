@@ -1,10 +1,10 @@
 _id: req_b025b4d92e534c1e9122976a068841ce
 type: Request
 parentId: fld_f42f05851c684b0c9553e574fe528fdb
-modified: 1650562052946
+modified: 1653578161988
 created: 1643106785032
 url: "{{ _.base_url }}/threads/1/tags"
-name: /threads/:id/tags
+name: /threads/{threadId}/tags
 description: ""
 method: DELETE
 body:

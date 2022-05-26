@@ -1,9 +1,9 @@
 _id: req_85193b26231c41d68b63d0c6e08c252a
 type: Request
 parentId: fld_e0971e9c8f6e45c68cab974262901d8c
-modified: 1653505941437
+modified: 1653578591079
 created: 1645025223742
-url: http://localhost:8081/health{{ _.base_url }}/teams/teams/42
+url: "{{ _.base_url }}/teams/teams/42"
 name: /teams/members/{teamId}/{userId}
 description: ""
 method: POST

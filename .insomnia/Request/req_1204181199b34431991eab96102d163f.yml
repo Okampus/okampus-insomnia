@@ -1,11 +1,10 @@
 _id: req_1204181199b34431991eab96102d163f
 type: Request
 parentId: fld_61c6570ae6634fa88aa26f12e3c34ac6
-modified: 1647191680130
+modified: 1653578671751
 created: 1643039526166
-url: "{{ _.base_url }}/tags/{% response 'body',
-  'req_f53b8c44e2274cfea5d770480c1d8bce', 'b64::JC5uYW1l::46b', 'always', 60 %}"
-name: /tags/{id}
+url: "{{ _.base_url }}/tags/tag-3"
+name: /tags/{tagId}
 description: ""
 method: PATCH
 body:

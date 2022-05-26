@@ -1,10 +1,10 @@
 _id: req_6eda38bd5e294163ba9e1d65bccdc5eb
 type: Request
 parentId: fld_f42f05851c684b0c9553e574fe528fdb
-modified: 1647191680133
+modified: 1653578159708
 created: 1643106698422
 url: "{{ _.base_url }}/threads/1/tags"
-name: /threads/:id/tags
+name: /threads/{threadId}/tags
 description: ""
 method: POST
 body:
@@ -12,7 +12,7 @@ body:
   text: |-
     {
     	"tags": ["tag-2"]
-    	}
+    }
 parameters: []
 headers:
   - name: Content-Type

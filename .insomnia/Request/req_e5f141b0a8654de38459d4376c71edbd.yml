@@ -1,12 +1,12 @@
 _id: req_e5f141b0a8654de38459d4376c71edbd
 type: Request
 parentId: fld_0c9b6777db254f0b9f96691054d2492b
-modified: 1651830492916
+modified: 1653578506458
 created: 1651830428168
 url: "{{ _.base_url }}/files/galleries/{% response 'body',
   'req_087e8027eee94ab69626bba87c2212cf', 'b64::JC5nYWxsZXJ5SW1hZ2VJZA==::46b',
   'no-history', 60 %}"
-name: /files/galleries/{id}
+name: /files/galleries/{galleryId}
 description: ""
 method: PATCH
 body:

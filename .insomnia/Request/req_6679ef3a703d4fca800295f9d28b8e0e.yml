@@ -1,10 +1,10 @@
 _id: req_6679ef3a703d4fca800295f9d28b8e0e
 type: Request
 parentId: fld_f42f05851c684b0c9553e574fe528fdb
-modified: 1652220447641
+modified: 1653577578758
 created: 1643106522463
 url: "{{ _.base_url }}/threads/2"
-name: /threads/:id
+name: /threads/{threadId}
 description: ""
 method: GET
 body: {}

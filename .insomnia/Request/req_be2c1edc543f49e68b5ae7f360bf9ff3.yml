@@ -1,10 +1,10 @@
 _id: req_be2c1edc543f49e68b5ae7f360bf9ff3
 type: Request
 parentId: fld_b7366e44f59e444e9bcbce3157c3d390
-modified: 1647191680125
+modified: 1653577637860
 created: 1643102573199
 url: "{{ _.base_url }}/reactions/1"
-name: /reactions/:contentId
+name: /reactions/{contentId}
 description: ""
 method: GET
 body: {}

@@ -1,12 +1,12 @@
 _id: req_1cdaba5aea5a4362a171a48e0a9a0402
 type: Request
 parentId: fld_e1647c9c41c9499bae95754079ba22cf
-modified: 1647191680129
+modified: 1653577941955
 created: 1643039526188
 url: "{{ _.base_url }}/subjects/{% response 'body',
   'req_9af45631a7104c15a41d8900e5b40faf', 'b64::JC5zdWJqZWN0SWQ=::46b',
   'always', 60 %}"
-name: /subjects/{id}
+name: /subjects/{subjectId}
 description: ""
 method: DELETE
 body: {}

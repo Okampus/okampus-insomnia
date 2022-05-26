@@ -1,10 +1,10 @@
 _id: req_d1448a48f2c44f95ae9dcd73f4d5f778
 type: Request
 parentId: fld_c7314aa81b6643e8b1164e2014f7d3bf
-modified: 1648247393664
+modified: 1653578472142
 created: 1645388922783
 url: "{{ _.base_url }}/wikis/1"
-name: /wikis/:id
+name: /wikis/{wikiId}
 description: ""
 method: PATCH
 body:

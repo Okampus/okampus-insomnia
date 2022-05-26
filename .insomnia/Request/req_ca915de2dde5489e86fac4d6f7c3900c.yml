@@ -1,10 +1,10 @@
 _id: req_ca915de2dde5489e86fac4d6f7c3900c
 type: Request
 parentId: fld_61c6570ae6634fa88aa26f12e3c34ac6
-modified: 1647191680130
+modified: 1653578654706
 created: 1643039526172
 url: "{{ _.base_url }}/tags/"
-name: /tags/
+name: /tags
 description: ""
 method: POST
 body:
@@ -21,7 +21,7 @@ headers:
     value: application/json
     id: pair_42084ca0e682459abb4e8e3454f798c9
 authentication: {}
-metaSortKey: 100
+metaSortKey: -50
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

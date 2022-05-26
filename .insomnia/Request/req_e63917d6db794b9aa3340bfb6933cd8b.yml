@@ -1,12 +1,12 @@
 _id: req_e63917d6db794b9aa3340bfb6933cd8b
 type: Request
 parentId: fld_e1647c9c41c9499bae95754079ba22cf
-modified: 1648038512928
+modified: 1653577939324
 created: 1643039526185
 url: "{{ _.base_url }}/subjects/{% response 'body',
   'req_9af45631a7104c15a41d8900e5b40faf', 'b64::JC5zdWJqZWN0SWQ=::46b',
   'always', 60 %}"
-name: /subjects/{id}
+name: /subjects/{subjectId}
 description: ""
 method: PATCH
 body:

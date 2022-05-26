@@ -1,10 +1,10 @@
 _id: req_224ccd0e483c4e50ac4772bc39f47a32
 type: Request
 parentId: fld_c7314aa81b6643e8b1164e2014f7d3bf
-modified: 1648247391632
+modified: 1653577670168
 created: 1645388922779
 url: "{{ _.base_url }}/wikis/1"
-name: /wikis/:id
+name: /wikis/{wikiId}
 description: ""
 method: GET
 body: {}

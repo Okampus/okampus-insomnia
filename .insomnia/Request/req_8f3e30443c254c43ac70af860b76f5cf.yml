@@ -1,10 +1,10 @@
 _id: req_8f3e30443c254c43ac70af860b76f5cf
 type: Request
 parentId: fld_0cea839ba5414cd18025931517daa569
-modified: 1651928028045
+modified: 1653578206128
 created: 1643104451528
 url: "{{ _.base_url }}/votes/1"
-name: /votes/:contentId
+name: /votes/{contentId}
 description: ""
 method: PUT
 body:

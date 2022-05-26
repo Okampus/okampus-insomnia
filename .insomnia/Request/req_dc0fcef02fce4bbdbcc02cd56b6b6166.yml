@@ -1,24 +1,14 @@
 _id: req_dc0fcef02fce4bbdbcc02cd56b6b6166
 type: Request
 parentId: fld_a9d9733c4e094c09bc2e7a57fcecd7d6
-modified: 1647191680098
+modified: 1653578124345
 created: 1643039526260
 url: "{{ _.base_url }}/badges"
-name: /badges/
+name: /badges
 description: ""
 method: GET
 body: {}
-parameters:
-  - id: pair_41651e497e854e459adb35d179383f8c
-    name: page
-    value: "1"
-    description: ""
-    disabled: false
-  - id: pair_8b5296c0f38748ca85d5368ea31daaf1
-    name: itemsPerPage
-    value: "5"
-    description: ""
-    disabled: false
+parameters: []
 headers: []
 authentication: {}
 metaSortKey: 0

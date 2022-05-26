@@ -1,10 +1,10 @@
 _id: req_4b55a093ea9343e7aae32ca0d76b67f1
 type: Request
 parentId: fld_91752c1f21704ccc9f8073df6cd5dff6
-modified: 1652097804742
+modified: 1653578303780
 created: 1643101275403
 url: "{{ _.base_url }}/contents/1"
-name: /contents/:id
+name: /contents/{contentId}
 description: ""
 method: PATCH
 body:

@@ -1,10 +1,10 @@
 _id: req_b12e1cc61e864aa692fbe33d088ca635
 type: Request
 parentId: fld_675a2eeb77404c8f888e7fc8af370c8c
-modified: 1647191680202
+modified: 1653578695075
 created: 1645108356899
 url: "{{ _.base_url }}/restaurant/daily-menus/2022-02-17"
-name: /restaurant/daily-menus/:date
+name: /restaurant/daily-menus/{date}
 description: ""
 method: PATCH
 body:

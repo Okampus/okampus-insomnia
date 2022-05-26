@@ -1,7 +1,7 @@
 _id: req_2238fabaf3d6465d8324f667dc2b8281
 type: Request
 parentId: fld_f42f05851c684b0c9553e574fe528fdb
-modified: 1652219043213
+modified: 1653578293315
 created: 1643040039701
 url: "{{ _.base_url }}/threads"
 name: /threads
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: >-
     {
-    	"title": "ahah ceci est un test avant tout !",
+    	"title": "This is a title",
     	"type": 1,
     	"assignees": [],
     	"tags": ["bonjour", "oui"],
