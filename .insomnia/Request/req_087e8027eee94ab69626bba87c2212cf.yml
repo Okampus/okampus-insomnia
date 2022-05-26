@@ -1,0 +1,21 @@
+_id: req_087e8027eee94ab69626bba87c2212cf
+type: Request
+parentId: fld_0c9b6777db254f0b9f96691054d2492b
+modified: 1651830324871
+created: 1651763760531
+url: "{{ _.base_url }}/files/galleries/iBK13BhJxqN2SGWfPn9-3b-LPtbC2WIh"
+name: /files/galleries/{id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

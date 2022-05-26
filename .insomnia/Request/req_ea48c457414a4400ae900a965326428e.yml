@@ -1,0 +1,29 @@
+_id: req_ea48c457414a4400ae900a965326428e
+type: Request
+parentId: fld_f42f05851c684b0c9553e574fe528fdb
+modified: 1652784937961
+created: 1643106542640
+url: "{{ _.base_url }}/threads/2"
+name: /threads/:id
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"adminValidatedWith": 4
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_db6dcf547c994a819926c7861500f3b7
+authentication: {}
+metaSortKey: 300
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

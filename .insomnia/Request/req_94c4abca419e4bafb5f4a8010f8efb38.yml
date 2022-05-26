@@ -1,0 +1,30 @@
+_id: req_94c4abca419e4bafb5f4a8010f8efb38
+type: Request
+parentId: fld_905fd81944e245df91cf295574ed800d
+modified: 1653567076261
+created: 1643039526330
+url: "{{ _.base_url }}/contacts/"
+name: /contacts/
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+    	"name": "Instagram",
+    	"icon": "non"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_42084ca0e682459abb4e8e3454f798c9
+authentication: {}
+metaSortKey: 100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

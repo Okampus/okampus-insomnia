@@ -1,0 +1,25 @@
+_id: req_f7ebd179020d41a982aa7f3ab74be369
+type: Request
+parentId: wrk_2defc8b6b23c4abe9acffc1601191706
+modified: 1647191698296
+created: 1643039526361
+url: http://localhost:8081/
+name: /
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_d4b90a6baf0446f3bbce15d663b13dd5
+    name: x-typesense-api-key
+    value: xyz
+    description: ""
+authentication: {}
+metaSortKey: 2125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

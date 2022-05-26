@@ -1,0 +1,29 @@
+_id: req_462256a4f4c044098cc9ce280af35d9c
+type: Request
+parentId: fld_b5beee5dfbbc443abb3ed90c89d58514
+modified: 1648650925069
+created: 1643125610540
+url: "{{ _.base_url }}/files/study-docs/categories"
+name: /files/study-docs/categories
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_64ba31f4842c415f8bb0cf7d5f2f40d5
+    name: categories
+    value: type,schoolYear,year
+    description: ""
+  - id: pair_d57010a49d98450794a07d65f5fa20a7
+    name: ""
+    value: ""
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: 500
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

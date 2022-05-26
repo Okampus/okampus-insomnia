@@ -1,0 +1,32 @@
+_id: req_66787e46955e4dedb81be8bc37748346
+type: Request
+parentId: fld_b442df673c484b17ac996ce74927b30b
+modified: 1651832538082
+created: 1651420366479
+url: "{{ _.base_url }}/teams/requests/{% response 'body',
+  'req_bdadf54efa964d0fb52736294177b06c', 'b64::JC50ZWFtSWQ=::46b', 'always', 60
+  %}"
+name: /teams/requests/{teamId}
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_4faf5b5df799458b9ebe614bf663b0bd
+    name: state
+    value: rejected
+    description: ""
+    disabled: true
+  - id: pair_126fc7cf92bb40cc95d193394a5070f9
+    name: type
+    value: in
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: 950
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

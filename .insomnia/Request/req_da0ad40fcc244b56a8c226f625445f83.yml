@@ -1,0 +1,31 @@
+_id: req_da0ad40fcc244b56a8c226f625445f83
+type: Request
+parentId: fld_f477bc5f9b28440e84284e209ea1f551
+modified: 1651700805849
+created: 1645025223735
+url: "{{ _.base_url }}/teams/memberships/horizon-admin/requests"
+name: /teams/memberships/{userId}/requests
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_41651e497e854e459adb35d179383f8c
+    name: page
+    value: "1"
+    description: ""
+    disabled: false
+  - id: pair_8b5296c0f38748ca85d5368ea31daaf1
+    name: itemsPerPage
+    value: "5"
+    description: ""
+    disabled: false
+headers: []
+authentication: {}
+metaSortKey: 450
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

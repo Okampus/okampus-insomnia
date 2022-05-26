@@ -1,0 +1,29 @@
+_id: req_0cacbbd9ed2541a28aab16731c5d157f
+type: Request
+parentId: fld_f42f05851c684b0c9553e574fe528fdb
+modified: 1652218980204
+created: 1643040021979
+url: "{{ _.base_url }}/threads"
+name: /threads
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_1cf49f65ba834424b2b916b375c9d7cc
+    name: sortBy
+    value: oldest
+    description: ""
+  - id: pair_635f5c19b0ce40bea51637d5c3f0fcb3
+    name: type
+    value: "1"
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: 0
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,36 @@
+_id: req_50716d802c81439bbfb97d769528879d
+type: Request
+parentId: fld_a9d9733c4e094c09bc2e7a57fcecd7d6
+modified: 1647191680098
+created: 1643039526272
+url: "{{ _.base_url }}/badges/"
+name: /badges/
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Chatteur",
+    	"description": "Oui ceci est un badge haha",
+    	"pointPrize": 15,
+    	"level": 3,
+    	"serie": "posts",
+    	"icon": "",
+    	"statisticThreshold": 10,
+    	"statistic": "post"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_42084ca0e682459abb4e8e3454f798c9
+authentication: {}
+metaSortKey: 100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

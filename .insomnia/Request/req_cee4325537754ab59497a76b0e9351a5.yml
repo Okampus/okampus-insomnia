@@ -1,0 +1,25 @@
+_id: req_cee4325537754ab59497a76b0e9351a5
+type: Request
+parentId: fld_d3bd287cbbb44e648de25d2141a703b9
+modified: 1647191680097
+created: 1643039525915
+url: "{{ base_url }}/auth/myefrei"
+name: /auth/myefrei
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_41808fa0f9be4fe0bf99ae1b64d0b16d
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: 200
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

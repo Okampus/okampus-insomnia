@@ -1,0 +1,21 @@
+_id: req_15b2de000d074efba2a24637afec8cba
+type: Request
+parentId: fld_675a2eeb77404c8f888e7fc8af370c8c
+modified: 1647191680202
+created: 1645108356879
+url: "{{ _.base_url }}/restaurant/daily-menus"
+name: /restaurant/daily-menus
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 0
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

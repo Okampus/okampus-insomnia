@@ -1,0 +1,23 @@
+_id: req_3fc6a668af0541988ee95fc80e88810d
+type: Request
+parentId: fld_b5beee5dfbbc443abb3ed90c89d58514
+modified: 1647191680201
+created: 1643039526097
+url: "{{ _.base_url }}/files/study-docs/{% response 'body',
+  'req_2defa5b05ebc4f509210ddce10cff44d', 'b64::JC5zdHVkeURvY0lk::46b',
+  'always', 60 %}"
+name: /files/study-docs/{id}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 400
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_b025b4d92e534c1e9122976a068841ce
+type: Request
+parentId: fld_f42f05851c684b0c9553e574fe528fdb
+modified: 1650562052946
+created: 1643106785032
+url: "{{ _.base_url }}/threads/1/tags"
+name: /threads/:id/tags
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"tags": ["tag-2"]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_db6dcf547c994a819926c7861500f3b7
+authentication: {}
+metaSortKey: 900
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

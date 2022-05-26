@@ -1,0 +1,34 @@
+_id: req_a7b98c53faa44007b7369156b889251f
+type: Request
+parentId: fld_d3bd287cbbb44e648de25d2141a703b9
+modified: 1653503519416
+created: 1653498741912
+url: "{{ base_url }}/auth/register"
+name: /auth/register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"userId": "aaa",
+    	"firstname": "aaa",
+    	"lastname": "aaa",
+    	"email": "aaa@gmail.com",
+    	"schoolRole": "student",
+    	"password": "root"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a709dd0229bc4c6c885d63c2296834cb
+authentication: {}
+metaSortKey: 262.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

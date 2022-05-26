@@ -1,0 +1,21 @@
+_id: req_f1b3928b21404637a0c9994f389c7769
+type: Request
+parentId: fld_a9d9733c4e094c09bc2e7a57fcecd7d6
+modified: 1653567038373
+created: 1643039526267
+url: "{{ _.base_url }}/badges/3"
+name: /badges/{badgeId}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 300
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

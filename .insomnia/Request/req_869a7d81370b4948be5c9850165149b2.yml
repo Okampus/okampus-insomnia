@@ -1,0 +1,21 @@
+_id: req_869a7d81370b4948be5c9850165149b2
+type: Request
+parentId: fld_8244099e35d346f583b91c3a99df0018
+modified: 1647191680123
+created: 1643101780195
+url: "{{ _.base_url }}/favorites/1"
+name: /favorites/:contentId
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 200
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

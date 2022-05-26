@@ -1,0 +1,21 @@
+_id: req_ec874c74a00a4bddb201e12a0542ec0d
+type: Request
+parentId: fld_f42f05851c684b0c9553e574fe528fdb
+modified: 1647191680133
+created: 1643106854959
+url: "{{ _.base_url }}/threads/6"
+name: /threads/:id
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 400
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

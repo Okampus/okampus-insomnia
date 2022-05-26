@@ -1,0 +1,25 @@
+_id: req_5c84807dc0e0425ea23ddc7b4cda5b50
+type: Request
+parentId: fld_f0db95087f52485caec7c0d0b795ba23
+modified: 1647191680099
+created: 1643107769814
+url: "{{ _.base_url }}/blogs"
+name: /blogs
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_b6f09ddf93fb4ad48f9a4bb1d7ae3d51
+    name: sortBy
+    value: popular
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: 0
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

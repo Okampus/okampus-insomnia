@@ -1,0 +1,33 @@
+_id: req_2238fabaf3d6465d8324f667dc2b8281
+type: Request
+parentId: fld_f42f05851c684b0c9553e574fe528fdb
+modified: 1652219043213
+created: 1643040039701
+url: "{{ _.base_url }}/threads"
+name: /threads
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"title": "ahah ceci est un test avant tout !",
+    	"type": 1,
+    	"assignees": [],
+    	"tags": ["bonjour", "oui"],
+    	"body": "# Ceci est un header\ntest, test\nCeci est un paragraphe\n- Ceci\n- est\n- une\n- liste !\n\nahah et *la* y'a du **formatting** [lien](http://example.com)"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_db6dcf547c994a819926c7861500f3b7
+authentication: {}
+metaSortKey: 100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

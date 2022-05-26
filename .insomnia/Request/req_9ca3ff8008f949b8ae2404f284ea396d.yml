@@ -1,0 +1,21 @@
+_id: req_9ca3ff8008f949b8ae2404f284ea396d
+type: Request
+parentId: fld_905fd81944e245df91cf295574ed800d
+modified: 1647191680111
+created: 1643039526327
+url: "{{ _.base_url }}/contacts/1"
+name: /contacts/{id}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 300
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

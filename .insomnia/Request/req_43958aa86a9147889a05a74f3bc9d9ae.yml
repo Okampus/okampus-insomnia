@@ -1,0 +1,29 @@
+_id: req_43958aa86a9147889a05a74f3bc9d9ae
+type: Request
+parentId: fld_c04d9070836343c99f41bc49635fad44
+modified: 1647191680199
+created: 1643039526122
+url: "{{ _.base_url }}/files/info-docs/search"
+name: /files/info-docs/search
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_e44cebfd52654605bdc24b5acc47e121
+    name: q
+    value: bite
+    description: ""
+  - id: pair_27415f7fb16a4f6ba4eca24be9a3bc26
+    name: query_by
+    value: name
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: 600
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

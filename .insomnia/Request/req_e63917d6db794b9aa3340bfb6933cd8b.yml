@@ -1,0 +1,31 @@
+_id: req_e63917d6db794b9aa3340bfb6933cd8b
+type: Request
+parentId: fld_e1647c9c41c9499bae95754079ba22cf
+modified: 1648038512928
+created: 1643039526185
+url: "{{ _.base_url }}/subjects/{% response 'body',
+  'req_9af45631a7104c15a41d8900e5b40faf', 'b64::JC5zdWJqZWN0SWQ=::46b',
+  'always', 60 %}"
+name: /subjects/{id}
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"description": "oui oui nouvelle description"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_42084ca0e682459abb4e8e3454f798c9
+authentication: {}
+metaSortKey: 200
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_1624e9f86e584d6889adeeac0b12d937
+type: Request
+parentId: fld_5140addae13b448e8e58fc3b2be5536f
+modified: 1647191680127
+created: 1643104833608
+url: "{{ _.base_url }}/reports/2"
+name: /reports/:id
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"reason": "oui oui oui c'est la raison"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c9206b09994440e89efcbff4d1260a59
+authentication: {}
+metaSortKey: 200
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

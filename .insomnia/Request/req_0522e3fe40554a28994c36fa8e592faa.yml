@@ -1,0 +1,21 @@
+_id: req_0522e3fe40554a28994c36fa8e592faa
+type: Request
+parentId: fld_675a2eeb77404c8f888e7fc8af370c8c
+modified: 1647191680202
+created: 1645108356903
+url: "{{ _.base_url }}/restaurant/daily-menus/2022-02-17"
+name: /restaurant/daily-menus/:date
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 300
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

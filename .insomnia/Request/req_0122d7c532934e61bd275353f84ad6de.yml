@@ -1,0 +1,21 @@
+_id: req_0122d7c532934e61bd275353f84ad6de
+type: Request
+parentId: fld_905fd81944e245df91cf295574ed800d
+modified: 1647191680111
+created: 1643039526336
+url: "{{ _.base_url }}/contacts/users/horizon-admin"
+name: /contacts/users/{userId}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 1000
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

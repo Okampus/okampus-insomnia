@@ -1,0 +1,21 @@
+_id: req_bb4b4978a0bf4de2bf5712d208fe7cde
+type: Request
+parentId: fld_b5beee5dfbbc443abb3ed90c89d58514
+modified: 1648646809610
+created: 1643039526088
+url: "{{ _.base_url }}/files/study-docs"
+name: /files/study-docs
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

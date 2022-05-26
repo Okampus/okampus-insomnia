@@ -1,0 +1,29 @@
+_id: req_fc8594f5a75949a7b21893f5fe4c4171
+type: Request
+parentId: fld_8c1b19c913a84a93ae99c0ef2f35e259
+modified: 1653567109658
+created: 1645170673863
+url: "{{ base_url }}/users/aaa"
+name: /users/{userId}
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"avatar": null
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_315cd15ec3e346fea01a2f3fb2e509f8
+authentication: {}
+metaSortKey: 100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

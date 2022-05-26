@@ -1,0 +1,29 @@
+_id: req_6272699e8a9e4ab58c46cc16f7df6b62
+type: Request
+parentId: fld_f0db95087f52485caec7c0d0b795ba23
+modified: 1647191680099
+created: 1643107769849
+url: "{{ _.base_url }}/blogs/1"
+name: /blogs/:id
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title": "Titre titre titre titre 2!"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_db6dcf547c994a819926c7861500f3b7
+authentication: {}
+metaSortKey: 300
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

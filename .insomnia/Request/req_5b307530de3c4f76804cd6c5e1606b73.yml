@@ -1,0 +1,58 @@
+_id: req_5b307530de3c4f76804cd6c5e1606b73
+type: Request
+parentId: fld_b5beee5dfbbc443abb3ed90c89d58514
+modified: 1648038889342
+created: 1643039526085
+url: "{{ _.base_url }}/files/study-docs"
+name: /files/study-docs
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_bf49637d2d3d47f3bd3285d66a768a54
+      name: file
+      value: ""
+      description: ""
+      type: file
+      fileName: /Users/elliotmaisl/Documents/Wallpapers/Colorful BeeHive.jpg
+      disabled: false
+    - id: pair_c35af50e10f5494ebcbf76993979cad3
+      name: subject
+      value: FL301
+      description: ""
+    - id: pair_15b77dc5268244bab49730a839d00c7e
+      name: cursus
+      value: pex
+      description: ""
+    - id: pair_eefaa2310d8047a3aaa0f65ad585da75
+      name: type
+      value: examCE
+      description: ""
+    - id: pair_d3f31388373c49fe902b9ea2a12a38a1
+      name: year
+      value: "2025"
+      description: ""
+    - id: pair_03fa9ba3c54c4d2e9e47e5f8c0b37634
+      name: flags
+      value: "7"
+      description: ""
+      disabled: false
+parameters:
+  - id: pair_c19089ee50e54458b1f23b793794f168
+    name: ""
+    value: ""
+    description: ""
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_5fd05b1e51144182b6b6b8ebfd4864a9
+authentication: {}
+metaSortKey: 0
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

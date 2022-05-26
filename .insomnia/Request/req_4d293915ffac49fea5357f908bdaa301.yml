@@ -1,0 +1,31 @@
+_id: req_4d293915ffac49fea5357f908bdaa301
+type: Request
+parentId: fld_b442df673c484b17ac996ce74927b30b
+modified: 1653425108422
+created: 1651420381437
+url: "{{ _.base_url }}/teams/requests/{% response 'body',
+  'req_bdadf54efa964d0fb52736294177b06c', 'b64::JC50ZWFtSWQ=::46b', 'always', 60
+  %}"
+name: /teams/requests/{teamId}
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"role": "member"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_af6f74ff45f34799be656d70fb843493
+authentication: {}
+metaSortKey: 1000
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

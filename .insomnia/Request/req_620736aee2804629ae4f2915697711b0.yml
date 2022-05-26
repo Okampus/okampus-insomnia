@@ -1,0 +1,29 @@
+_id: req_620736aee2804629ae4f2915697711b0
+type: Request
+parentId: fld_da4d50404b104c3f97001dd5c41636ff
+modified: 1647191680203
+created: 1645114351981
+url: "{{ _.base_url }}/restaurant/food/1"
+name: /restaurant/food/:id
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"date": "2021-02-17"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_770b3d3f3e6a40b6b5023ad84c8a88aa
+authentication: {}
+metaSortKey: 200
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

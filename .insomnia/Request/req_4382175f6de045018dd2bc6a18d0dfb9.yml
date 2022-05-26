@@ -1,0 +1,30 @@
+_id: req_4382175f6de045018dd2bc6a18d0dfb9
+type: Request
+parentId: fld_a9d9733c4e094c09bc2e7a57fcecd7d6
+modified: 1653567035364
+created: 1643039526264
+url: "{{ _.base_url }}/badges/{% response 'body',
+  'req_21298106e2414fcf9fcc62f444bec094', 'b64::JC5zbHVn::46b', 'always', 60 %}"
+name: /badges/{badgeId}
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"level": 2
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_42084ca0e682459abb4e8e3454f798c9
+authentication: {}
+metaSortKey: 200
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

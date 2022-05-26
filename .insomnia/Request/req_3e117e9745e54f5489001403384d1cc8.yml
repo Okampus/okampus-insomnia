@@ -1,0 +1,21 @@
+_id: req_3e117e9745e54f5489001403384d1cc8
+type: Request
+parentId: fld_c7314aa81b6643e8b1164e2014f7d3bf
+modified: 1647191680136
+created: 1645388922787
+url: "{{ _.base_url }}/wikis/1"
+name: /wikis/:id
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 400
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

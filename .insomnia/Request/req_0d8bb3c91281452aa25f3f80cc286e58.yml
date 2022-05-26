@@ -1,0 +1,21 @@
+_id: req_0d8bb3c91281452aa25f3f80cc286e58
+type: Request
+parentId: fld_905fd81944e245df91cf295574ed800d
+modified: 1647191680111
+created: 1643039526343
+url: "{{ _.base_url }}/contacts/users/account/1"
+name: /contacts/users/account/{accountId}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 1100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_d96928344a8e41278f4c97e717872eb7
+type: Request
+parentId: fld_c7314aa81b6643e8b1164e2014f7d3bf
+modified: 1647191680136
+created: 1645388922769
+url: "{{ _.base_url }}/wikis?category=aide"
+name: /wikis
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

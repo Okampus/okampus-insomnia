@@ -1,0 +1,21 @@
+_id: req_bdadf54efa964d0fb52736294177b06c
+type: Request
+parentId: fld_04c1310d7d7642359d8e6311a666cb6b
+modified: 1653510560432
+created: 1645025223730
+url: "{{ _.base_url }}/teams/teams/1"
+name: /teams/teams/{teamId}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1651570588677
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

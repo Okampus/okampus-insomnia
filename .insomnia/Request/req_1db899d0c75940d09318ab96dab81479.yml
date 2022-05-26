@@ -1,0 +1,31 @@
+_id: req_1db899d0c75940d09318ab96dab81479
+type: Request
+parentId: fld_905fd81944e245df91cf295574ed800d
+modified: 1647191680111
+created: 1643039526346
+url: "{{ _.base_url }}/contacts/users"
+name: /contacts/users
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"contactId": 2,
+    	"link": "instagram.com/noftaly",
+    	"pseudo": "noftaly"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_3b9d79309e714fcbb7202b1935f2c996
+authentication: {}
+metaSortKey: 900
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

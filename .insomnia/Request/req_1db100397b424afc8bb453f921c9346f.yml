@@ -1,0 +1,31 @@
+_id: req_1db100397b424afc8bb453f921c9346f
+type: Request
+parentId: fld_91752c1f21704ccc9f8073df6cd5dff6
+modified: 1647191680118
+created: 1643100424449
+url: "{{ _.base_url }}/contents/comments"
+name: /contents/comments
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"parentId": 3,
+    	"body": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"This is some very qualitative reply\"}]}]}",
+    	"contentMasterType": "thread"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2c5663c36f2f404ea01f97c99722c7f7
+authentication: {}
+metaSortKey: 400
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

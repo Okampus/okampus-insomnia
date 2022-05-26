@@ -1,0 +1,30 @@
+_id: req_e69cd297a01745528347ba22b602c923
+type: Request
+parentId: fld_d3bd287cbbb44e648de25d2141a703b9
+modified: 1653577427357
+created: 1643039525903
+url: "{{ base_url }}/auth/login"
+name: /auth/login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username": "okampus-admin",
+    	"password": "root"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a709dd0229bc4c6c885d63c2296834cb
+authentication: {}
+metaSortKey: 250
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

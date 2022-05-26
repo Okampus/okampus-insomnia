@@ -1,0 +1,33 @@
+_id: req_84338255ab714fb1b56133ce24cd433a
+type: Request
+parentId: fld_04c1310d7d7642359d8e6311a666cb6b
+modified: 1653512657476
+created: 1653512648115
+url: "{{ _.base_url }}/teams/teams/{% response 'body',
+  'req_bdadf54efa964d0fb52736294177b06c', 'b64::JC50ZWFtSWQ=::46b', 'always', 60
+  %}/banner"
+name: /teams/teams/{teamId}/banner
+description: ""
+method: PUT
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: file
+      value: ""
+      id: pair_c7db80d797904877aa330745c61bbe3f
+      type: file
+      fileName: /Users/elliotmaisl/Documents/Wallpapers/Colorful BeeHive.jpg
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_42084ca0e682459abb4e8e3454f798c9
+authentication: {}
+metaSortKey: -1651570588589.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

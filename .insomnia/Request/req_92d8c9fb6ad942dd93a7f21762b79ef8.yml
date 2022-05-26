@@ -1,0 +1,25 @@
+_id: req_92d8c9fb6ad942dd93a7f21762b79ef8
+type: Request
+parentId: wrk_2defc8b6b23c4abe9acffc1601191706
+modified: 1647191689770
+created: 1643039526358
+url: http://localhost:8081/health
+name: /health
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_d4b90a6baf0446f3bbce15d663b13dd5
+    name: x-typesense-api-key
+    value: xyz
+    description: ""
+authentication: {}
+metaSortKey: 2150
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

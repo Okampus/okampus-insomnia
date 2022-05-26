@@ -1,0 +1,29 @@
+_id: req_8f3e30443c254c43ac70af860b76f5cf
+type: Request
+parentId: fld_0cea839ba5414cd18025931517daa569
+modified: 1651928028045
+created: 1643104451528
+url: "{{ _.base_url }}/votes/1"
+name: /votes/:contentId
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"value": -1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_edf37e9c561048b0af32c9d751b46921
+authentication: {}
+metaSortKey: 0
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

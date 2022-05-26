@@ -1,0 +1,29 @@
+_id: req_be86e48c23ab48eeaab6a19641bce5f2
+type: Request
+parentId: fld_5140addae13b448e8e58fc3b2be5536f
+modified: 1653577205914
+created: 1643104833594
+url: "{{ _.base_url }}/reports"
+name: /reports
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"throughContentId": 2
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_8d009708e3d542c6b54c2f1425a71f4e
+authentication: {}
+metaSortKey: 0
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

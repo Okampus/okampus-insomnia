@@ -1,0 +1,31 @@
+_id: req_cb214706460d4449819bd1036c3150bb
+type: Request
+parentId: fld_905fd81944e245df91cf295574ed800d
+modified: 1647191680111
+created: 1643039526353
+url: "{{ _.base_url }}/contacts/clubs/1"
+name: /contacts/clubs/{clubId}
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"contactId": 2,
+    	"link": "elliot@maisl.fr",
+    	"pseudo": "elliot@maisl.fr"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_68af4b159c614d2fba19fd98c2de3441
+authentication: {}
+metaSortKey: 600
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

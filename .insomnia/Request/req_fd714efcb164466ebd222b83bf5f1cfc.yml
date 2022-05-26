@@ -1,0 +1,21 @@
+_id: req_fd714efcb164466ebd222b83bf5f1cfc
+type: Request
+parentId: fld_905fd81944e245df91cf295574ed800d
+modified: 1647191680111
+created: 1643039526350
+url: "{{ _.base_url }}/contacts/clubs/1"
+name: /contacts/clubs/{clubId}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 500
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

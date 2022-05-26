@@ -1,0 +1,29 @@
+_id: req_5c6ee2d1190148f1ab7f94243b6cd4fb
+type: Request
+parentId: fld_b7366e44f59e444e9bcbce3157c3d390
+modified: 1647191680125
+created: 1643102573194
+url: "{{ _.base_url }}/reactions/1"
+name: /reactions/:contentId
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"reaction": "perfect"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_edf37e9c561048b0af32c9d751b46921
+authentication: {}
+metaSortKey: 0
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

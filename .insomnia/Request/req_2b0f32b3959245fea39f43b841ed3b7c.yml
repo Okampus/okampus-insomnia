@@ -1,0 +1,23 @@
+_id: req_2b0f32b3959245fea39f43b841ed3b7c
+type: Request
+parentId: fld_04c1310d7d7642359d8e6311a666cb6b
+modified: 1651593454189
+created: 1645025223721
+url: "{{ _.base_url }}/teams/teams/{% response 'body',
+  'req_bdadf54efa964d0fb52736294177b06c', 'b64::JC50ZWFtSWQ=::46b', 'always', 60
+  %}"
+name: /teams/teams/{teamId}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1651570588577
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_503d2e2ec79f4e0382caead47d617ead
+type: Request
+parentId: fld_e1647c9c41c9499bae95754079ba22cf
+modified: 1647191680129
+created: 1643039526196
+url: "{{ _.base_url }}/subjects/TI302"
+name: /subjects/{id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 400
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

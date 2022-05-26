@@ -1,0 +1,21 @@
+_id: req_134c458a8beb4e03928ffc1521a02a82
+type: Request
+parentId: fld_8c1b19c913a84a93ae99c0ef2f35e259
+modified: 1653567013409
+created: 1645170663689
+url: "{{ base_url }}/users/okampus-admin"
+name: /users/{userId}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 200
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

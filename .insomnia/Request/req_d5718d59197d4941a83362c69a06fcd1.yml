@@ -1,0 +1,23 @@
+_id: req_d5718d59197d4941a83362c69a06fcd1
+type: Request
+parentId: fld_e0971e9c8f6e45c68cab974262901d8c
+modified: 1653506029237
+created: 1645025223745
+url: "{{ _.base_url }}/teams/members/{% response 'body',
+  'req_bdadf54efa964d0fb52736294177b06c', 'b64::JC50ZWFtSWQ=::46b', 'always', 60
+  %}/20190997"
+name: /teams/members/{teamId}/{userId}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 650
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

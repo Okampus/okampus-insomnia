@@ -1,0 +1,21 @@
+_id: req_dea92d902cbe4c86975911dfd52abe1e
+type: Request
+parentId: fld_d3bd287cbbb44e648de25d2141a703b9
+modified: 1647191680097
+created: 1643039525906
+url: "{{ _.base_url }}/auth/me "
+name: /auth/me
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

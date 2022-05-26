@@ -1,0 +1,29 @@
+_id: req_1c2f65a4f41b45f7b4dac949205dc2ed
+type: Request
+parentId: fld_5140addae13b448e8e58fc3b2be5536f
+modified: 1647191680127
+created: 1643104833600
+url: "{{ _.base_url }}/reports/horizon-admin"
+name: /reports/:userId
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"contentId": 2
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_fdb8d76fce054fab8ee5bddbac6e202a
+authentication: {}
+metaSortKey: 400
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

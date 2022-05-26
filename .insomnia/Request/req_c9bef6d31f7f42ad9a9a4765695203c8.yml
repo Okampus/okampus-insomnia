@@ -1,0 +1,35 @@
+_id: req_c9bef6d31f7f42ad9a9a4765695203c8
+type: Request
+parentId: fld_b153b9e47c6e474897aa200570f6b3a3
+modified: 1651596810812
+created: 1651570937860
+url: "{{ _.base_url }}/teams/events"
+name: /teams/events
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_d46d5ffc6c80490a8c1d7d0023d04c25
+    name: sortBy
+    value: oldest
+    description: ""
+    disabled: false
+  - id: pair_c440a4a2d5814e5a83226de2d394b345
+    name: after
+    value: 2022-06-03T15:55:24.000Z
+    description: ""
+    disabled: false
+  - id: pair_7f1ac46042574b0b9e009c7f5821e419
+    name: priceBelow
+    value: "3"
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1651570635941
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

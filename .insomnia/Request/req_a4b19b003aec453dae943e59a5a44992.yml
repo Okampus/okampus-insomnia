@@ -1,0 +1,31 @@
+_id: req_a4b19b003aec453dae943e59a5a44992
+type: Request
+parentId: fld_b5beee5dfbbc443abb3ed90c89d58514
+modified: 1647191680201
+created: 1643039526091
+url: "{{ _.base_url }}/files/study-docs/{% response 'body',
+  'req_4923be3255cf4c1880fa5aaf29b163ef', 'b64::JC5zdHVkeURvY0lk::46b',
+  'always', 60 %}"
+name: /files/study-docs/{id}
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"cursus": "all"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9c6f32317dd24b1b9f1102bafd8b2c6d
+authentication: {}
+metaSortKey: 200
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

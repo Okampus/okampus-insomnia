@@ -1,0 +1,31 @@
+_id: req_b12e1cc61e864aa692fbe33d088ca635
+type: Request
+parentId: fld_675a2eeb77404c8f888e7fc8af370c8c
+modified: 1647191680202
+created: 1645108356899
+url: "{{ _.base_url }}/restaurant/daily-menus/2022-02-17"
+name: /restaurant/daily-menus/:date
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"starters": [1],
+    	"dishes": [2, 3],
+    	"desserts": [4]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_770b3d3f3e6a40b6b5023ad84c8a88aa
+authentication: {}
+metaSortKey: 200
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

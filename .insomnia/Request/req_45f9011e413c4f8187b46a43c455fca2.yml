@@ -1,0 +1,23 @@
+_id: req_45f9011e413c4f8187b46a43c455fca2
+type: Request
+parentId: fld_e0971e9c8f6e45c68cab974262901d8c
+modified: 1651594326616
+created: 1645025223752
+url: "{{ _.base_url }}/teams/members/{% response 'body',
+  'req_bdadf54efa964d0fb52736294177b06c', 'b64::JC50ZWFtSWQ=::46b', 'always', 60
+  %}"
+name: /teams/members/{teamId}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 500
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

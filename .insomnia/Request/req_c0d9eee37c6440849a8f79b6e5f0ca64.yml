@@ -1,0 +1,30 @@
+_id: req_c0d9eee37c6440849a8f79b6e5f0ca64
+type: Request
+parentId: fld_da4d50404b104c3f97001dd5c41636ff
+modified: 1647191680203
+created: 1645114351970
+url: "{{ _.base_url }}/restaurant/food"
+name: /restaurant/food
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "frites",
+    	"type": 0
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_daf9a186975942278cac338c8abd1de5
+authentication: {}
+metaSortKey: 100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

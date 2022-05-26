@@ -1,0 +1,21 @@
+_id: req_d9ab326f8c4341048aaf090b030a35bf
+type: Request
+parentId: fld_be5fe17407b247a980b2b55b965c6061
+modified: 1647191680199
+created: 1643039526134
+url: "{{ _.base_url }}/files/attachments/kMG0Ik5I-DxAX6_RYlY4MXrXRAYc4sPx"
+name: /files/attachments/{id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

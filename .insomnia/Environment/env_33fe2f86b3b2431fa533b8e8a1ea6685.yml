@@ -1,0 +1,20 @@
+_id: env_33fe2f86b3b2431fa533b8e8a1ea6685
+type: Environment
+parentId: wrk_2defc8b6b23c4abe9acffc1601191706
+modified: 1653508729384
+created: 1643039525877
+name: Base environment
+data:
+  base_url: http://localhost:8081
+  base_url_: https://api.okampus.fr
+  httpUsername: okampus-admin
+  httpPassword: root
+dataPropertyOrder:
+  "&":
+    - base_url
+    - base_url_
+    - httpUsername
+    - httpPassword
+color: null
+isPrivate: false
+metaSortKey: 1625818872086

@@ -1,0 +1,21 @@
+_id: req_4185efe82bd44ec1b98b6e685309d352
+type: Request
+parentId: fld_8c1b19c913a84a93ae99c0ef2f35e259
+modified: 1653567019546
+created: 1643560935257
+url: "{{ _.base_url }}/users/horizon-admin/statistics"
+name: /users/{userId}/statistics
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 300
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

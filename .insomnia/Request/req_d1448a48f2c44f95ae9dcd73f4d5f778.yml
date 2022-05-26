@@ -1,0 +1,29 @@
+_id: req_d1448a48f2c44f95ae9dcd73f4d5f778
+type: Request
+parentId: fld_c7314aa81b6643e8b1164e2014f7d3bf
+modified: 1648247393664
+created: 1645388922783
+url: "{{ _.base_url }}/wikis/1"
+name: /wikis/:id
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"body": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"This is some veryyyyyyyyyyy qualitative reply\"}]}]}"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_1592b93203484b7a82856d0dfa500451
+authentication: {}
+metaSortKey: 300
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

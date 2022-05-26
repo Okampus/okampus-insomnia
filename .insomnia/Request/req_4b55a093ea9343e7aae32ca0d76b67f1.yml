@@ -1,0 +1,29 @@
+_id: req_4b55a093ea9343e7aae32ca0d76b67f1
+type: Request
+parentId: fld_91752c1f21704ccc9f8073df6cd5dff6
+modified: 1652097804742
+created: 1643101275403
+url: "{{ _.base_url }}/contents/1"
+name: /contents/:id
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"hidden": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_1592b93203484b7a82856d0dfa500451
+authentication: {}
+metaSortKey: 100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

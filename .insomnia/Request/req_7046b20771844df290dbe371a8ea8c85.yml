@@ -1,0 +1,29 @@
+_id: req_7046b20771844df290dbe371a8ea8c85
+type: Request
+parentId: fld_f0db95087f52485caec7c0d0b795ba23
+modified: 1647191680099
+created: 1643107769856
+url: "{{ _.base_url }}/blogs/1/tags"
+name: /blogs/:id/tags
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"tags": ["tag-2"]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_db6dcf547c994a819926c7861500f3b7
+authentication: {}
+metaSortKey: 600
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

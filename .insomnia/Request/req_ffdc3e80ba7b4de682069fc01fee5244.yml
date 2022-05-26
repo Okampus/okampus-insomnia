@@ -1,0 +1,38 @@
+_id: req_ffdc3e80ba7b4de682069fc01fee5244
+type: Request
+parentId: fld_0c9b6777db254f0b9f96691054d2492b
+modified: 1651830315450
+created: 1651763760520
+url: "{{ _.base_url }}/files/galleries"
+name: /files/galleries
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_bf49637d2d3d47f3bd3285d66a768a54
+      name: file
+      value: ""
+      description: ""
+      type: file
+      fileName: /Users/elliotmaisl/Documents/Wallpapers/Colorful BeeHive.jpg
+      disabled: false
+    - id: pair_48cd741e62b146b9b6a098baa9f8547d
+      name: teamId
+      value: "1"
+      description: ""
+      disabled: false
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_5fd05b1e51144182b6b6b8ebfd4864a9
+authentication: {}
+metaSortKey: 0
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_29b263b68f9a4165958d5f41d55d8a40
+type: Request
+parentId: fld_f42f05851c684b0c9553e574fe528fdb
+modified: 1647191680133
+created: 1643114860342
+url: "{{ _.base_url }}/threads/1/interactions"
+name: /threads/:id/interactions
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 700
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

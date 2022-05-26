@@ -1,0 +1,21 @@
+_id: req_d1b41ed24f88432bae6a9282b2f5105a
+type: Request
+parentId: fld_a9d9733c4e094c09bc2e7a57fcecd7d6
+modified: 1653567040868
+created: 1643039526275
+url: "{{ _.base_url }}/badges/chatteur"
+name: /badges/{badgeId}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 400
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

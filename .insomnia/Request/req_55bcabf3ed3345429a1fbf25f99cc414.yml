@@ -1,0 +1,21 @@
+_id: req_55bcabf3ed3345429a1fbf25f99cc414
+type: Request
+parentId: fld_f477bc5f9b28440e84284e209ea1f551
+modified: 1653505893769
+created: 1651419951783
+url: "{{ _.base_url }}/teams/memberships/20180684"
+name: /teams/memberships/{userId}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 400
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

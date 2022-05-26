@@ -1,0 +1,31 @@
+_id: req_5603df6732cc4149a0f53b784d855c1c
+type: Request
+parentId: fld_c7314aa81b6643e8b1164e2014f7d3bf
+modified: 1648247377931
+created: 1645388922765
+url: "{{ _.base_url }}/wikis"
+name: /wikis
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"title": "OUIIOUOUIUIOUI",
+    	"category": "aide",
+    	"body": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"This is some very qualitative reply\"}]}]}"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2c5663c36f2f404ea01f97c99722c7f7
+authentication: {}
+metaSortKey: 0
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

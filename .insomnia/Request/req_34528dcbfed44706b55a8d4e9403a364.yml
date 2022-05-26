@@ -1,0 +1,33 @@
+_id: req_34528dcbfed44706b55a8d4e9403a364
+type: Request
+parentId: fld_04c1310d7d7642359d8e6311a666cb6b
+modified: 1653503512467
+created: 1645025223725
+url: "{{ _.base_url }}/teams/teams"
+name: /teams/teams/
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Efrei Crypto Paris",
+    	"description": "On aime les Bitcoins",
+    	"kind": "club",
+    	"category": "catégorie avec un nom élégant",
+    	"tags": ["ouii"]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_42084ca0e682459abb4e8e3454f798c9
+authentication: {}
+metaSortKey: -1651570588827
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

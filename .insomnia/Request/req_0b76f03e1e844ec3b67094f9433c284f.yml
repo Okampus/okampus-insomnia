@@ -1,0 +1,31 @@
+_id: req_0b76f03e1e844ec3b67094f9433c284f
+type: Request
+parentId: fld_c04d9070836343c99f41bc49635fad44
+modified: 1647191680199
+created: 1643039526116
+url: "{{ _.base_url }}/files/info-docs/{% response 'body',
+  'req_e6a7623f4c774ddd920577e722e7e0d2', 'b64::JC5pbmZvRG9jSWQ=::46b',
+  'always', 60 %}"
+name: /files/info-docs/{id}
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"tags": ["tag-4"]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9c6f32317dd24b1b9f1102bafd8b2c6d
+authentication: {}
+metaSortKey: 300
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

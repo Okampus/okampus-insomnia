@@ -1,0 +1,21 @@
+_id: req_a51398a15faf4944b19bad7a2e764a4a
+type: Request
+parentId: fld_b153b9e47c6e474897aa200570f6b3a3
+modified: 1653424627130
+created: 1651571014031
+url: "{{ _.base_url }}/teams/events/1"
+name: /teams/events/{eventId}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1651570612384
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_1c9ca360a56b4537a311ce36fa6bf9f7
+type: Request
+parentId: fld_61c6570ae6634fa88aa26f12e3c34ac6
+modified: 1647191680130
+created: 1643039526175
+url: "{{ _.base_url }}/tags/tag-4"
+name: /tags/{id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 400
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

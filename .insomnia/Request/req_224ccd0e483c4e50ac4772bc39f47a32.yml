@@ -1,0 +1,21 @@
+_id: req_224ccd0e483c4e50ac4772bc39f47a32
+type: Request
+parentId: fld_c7314aa81b6643e8b1164e2014f7d3bf
+modified: 1648247391632
+created: 1645388922779
+url: "{{ _.base_url }}/wikis/1"
+name: /wikis/:id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 200
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

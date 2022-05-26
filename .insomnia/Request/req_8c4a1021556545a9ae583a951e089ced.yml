@@ -1,0 +1,33 @@
+_id: req_8c4a1021556545a9ae583a951e089ced
+type: Request
+parentId: fld_91752c1f21704ccc9f8073df6cd5dff6
+modified: 1651349852173
+created: 1643100217633
+url: "{{ _.base_url }}/contents/replies"
+name: /contents/replies
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"parentId": 0
+    }
+parameters:
+  - id: pair_d61f513bf8e541bbb8dad647f4ec1bfc
+    name: sortBy
+    value: unpopular
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2c5663c36f2f404ea01f97c99722c7f7
+authentication: {}
+metaSortKey: 700
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

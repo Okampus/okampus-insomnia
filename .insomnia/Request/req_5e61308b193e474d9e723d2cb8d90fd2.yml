@@ -1,0 +1,32 @@
+_id: req_5e61308b193e474d9e723d2cb8d90fd2
+type: Request
+parentId: fld_f42f05851c684b0c9553e574fe528fdb
+modified: 1650562102193
+created: 1643297187185
+url: "{{ _.base_url }}/threads/search"
+name: /threads/search
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_bb2d9ba275514249a586ae10a7a6bb85
+    name: q
+    value: "*"
+    description: ""
+    disabled: false
+  - id: pair_e884d477c92e405fa140d53f0251e014
+    name: query_by
+    value: title,body,author,tags
+    description: ""
+    type: text
+    multiline: false
+headers: []
+authentication: {}
+metaSortKey: 1000
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

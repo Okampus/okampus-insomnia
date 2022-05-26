@@ -1,0 +1,29 @@
+_id: req_85193b26231c41d68b63d0c6e08c252a
+type: Request
+parentId: fld_e0971e9c8f6e45c68cab974262901d8c
+modified: 1653505941437
+created: 1645025223742
+url: http://localhost:8081/health{{ _.base_url }}/teams/teams/42
+name: /teams/members/{teamId}/{userId}
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"force": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_8b38aeae11974e7aa59fe4832936090a
+authentication: {}
+metaSortKey: 550
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

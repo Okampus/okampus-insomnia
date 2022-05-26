@@ -1,0 +1,33 @@
+_id: req_0e9e36f33e14420081d454bce78c375d
+type: Request
+parentId: fld_e1647c9c41c9499bae95754079ba22cf
+modified: 1648038629807
+created: 1643039526191
+url: "{{ _.base_url }}/subjects/"
+name: /subjects/
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"subjectId": "SM301",
+    	"name": "Francais",
+    	"englishName": "French",
+    	"description": "On fait du français.",
+    	"schoolYear": 2
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_42084ca0e682459abb4e8e3454f798c9
+authentication: {}
+metaSortKey: 100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_e10a4c05b4d8430491273c1a3baad1ac
+type: Request
+parentId: fld_b442df673c484b17ac996ce74927b30b
+modified: 1653426809674
+created: 1651420394482
+url: "{{ _.base_url }}/teams/requests/1"
+name: /teams/requests/{requestId}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"state": "approved"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ba830a25945a4db1bd9a1b01cc96cb34
+authentication: {}
+metaSortKey: 1050
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

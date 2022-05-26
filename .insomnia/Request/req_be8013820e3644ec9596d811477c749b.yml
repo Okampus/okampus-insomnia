@@ -1,0 +1,31 @@
+_id: req_be8013820e3644ec9596d811477c749b
+type: Request
+parentId: fld_905fd81944e245df91cf295574ed800d
+modified: 1647191680111
+created: 1643039526320
+url: "{{ _.base_url }}/contacts"
+name: /contacts/
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_41651e497e854e459adb35d179383f8c
+    name: page
+    value: "1"
+    description: ""
+    disabled: false
+  - id: pair_8b5296c0f38748ca85d5368ea31daaf1
+    name: itemsPerPage
+    value: "10"
+    description: ""
+    disabled: false
+headers: []
+authentication: {}
+metaSortKey: 0
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

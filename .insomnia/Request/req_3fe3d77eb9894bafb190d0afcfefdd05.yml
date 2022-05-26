@@ -1,0 +1,29 @@
+_id: req_3fe3d77eb9894bafb190d0afcfefdd05
+type: Request
+parentId: fld_4e7bd446b6fd428d9e6185bba5df119b
+modified: 1647191680202
+created: 1645092517068
+url: "{{ _.base_url }}/restaurant/daily-info/2022-02-17"
+name: /restaurant/daily-info/:date
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"content": "iiiiiiiiiiiiiiiiiiiiiiiiiiii"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_770b3d3f3e6a40b6b5023ad84c8a88aa
+authentication: {}
+metaSortKey: 200
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

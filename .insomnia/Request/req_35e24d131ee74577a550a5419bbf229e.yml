@@ -1,0 +1,36 @@
+_id: req_35e24d131ee74577a550a5419bbf229e
+type: Request
+parentId: fld_b5beee5dfbbc443abb3ed90c89d58514
+modified: 1647191680201
+created: 1643039526100
+url: "{{ _.base_url }}/files/study-docs/search"
+name: /files/study-docs/search
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_41651e497e854e459adb35d179383f8c
+    name: q
+    value: Physique TI302
+    description: ""
+    disabled: false
+  - id: pair_8b5296c0f38748ca85d5368ea31daaf1
+    name: query_by
+    value: subjectName,subjectEnglishName
+    description: ""
+    disabled: false
+  - id: pair_122fffae14e44938a795a5409059b9a3
+    name: full
+    value: "true"
+    description: ""
+    disabled: true
+headers: []
+authentication: {}
+metaSortKey: 600
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

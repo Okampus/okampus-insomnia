@@ -1,0 +1,21 @@
+_id: req_36d3dbeb34c745b0bad327151a07b283
+type: Request
+parentId: fld_e11332e1ab5749c68d23f9c85d94146c
+modified: 1647191680128
+created: 1645174451446
+url: "{{ _.base_url }}/restaurant/date?date=2022-02-17"
+name: /restaurant/date
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 0
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

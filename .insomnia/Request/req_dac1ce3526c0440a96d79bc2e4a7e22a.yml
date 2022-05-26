@@ -1,0 +1,21 @@
+_id: req_dac1ce3526c0440a96d79bc2e4a7e22a
+type: Request
+parentId: fld_da4d50404b104c3f97001dd5c41636ff
+modified: 1647191680203
+created: 1645114352005
+url: "{{ _.base_url }}/restaurant/food/1"
+name: /restaurant/food/:id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 400
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

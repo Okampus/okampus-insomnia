@@ -1,0 +1,29 @@
+_id: req_68e997451c8f4561b4c0e9916caae9db
+type: Request
+parentId: fld_f42f05851c684b0c9553e574fe528fdb
+modified: 1647191680133
+created: 1643106802770
+url: "{{ _.base_url }}/threads/1/assignees"
+name: /threads/:id/assignees
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"assignees": ["horizon-admin"]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_db6dcf547c994a819926c7861500f3b7
+authentication: {}
+metaSortKey: 500
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

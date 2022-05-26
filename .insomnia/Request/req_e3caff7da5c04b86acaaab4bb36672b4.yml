@@ -1,0 +1,35 @@
+_id: req_e3caff7da5c04b86acaaab4bb36672b4
+type: Request
+parentId: fld_04c1310d7d7642359d8e6311a666cb6b
+modified: 1651593444399
+created: 1651419058229
+url: "{{ _.base_url }}/teams/teams/names"
+name: /teams/teams/names
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_41651e497e854e459adb35d179383f8c
+    name: page
+    value: "2"
+    description: ""
+    disabled: false
+  - id: pair_8b5296c0f38748ca85d5368ea31daaf1
+    name: itemsPerPage
+    value: "1"
+    description: ""
+    disabled: false
+  - id: pair_0fe3041b6c484652a6ed54977942016e
+    name: kind
+    value: club
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1651570588727
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_fdd3982dd5ff402a90156fb505b05852
+type: Request
+parentId: fld_4e7bd446b6fd428d9e6185bba5df119b
+modified: 1647191680202
+created: 1645092488205
+url: "{{ _.base_url }}/restaurant/daily-info"
+name: /restaurant/daily-info
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"date": "2022-02-17",
+    	"content": "Infoinfoinfo"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_daf9a186975942278cac338c8abd1de5
+authentication: {}
+metaSortKey: 100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

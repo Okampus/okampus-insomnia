@@ -1,0 +1,21 @@
+_id: req_687d57a824f14abc8c2843d2d9700839
+type: Request
+parentId: fld_5140addae13b448e8e58fc3b2be5536f
+modified: 1647191680127
+created: 1643104833604
+url: "{{ _.base_url }}/reports/1"
+name: /reports/:id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
