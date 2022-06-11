@@ -1,11 +1,11 @@
 _id: req_15e6a6c12a11442ca78ed84e1a426423
 type: Request
 parentId: fld_e0971e9c8f6e45c68cab974262901d8c
-modified: 1653578586777
+modified: 1653905966610
 created: 1645025223738
 url: "{{ _.base_url }}/teams/members/{% response 'body',
   'req_bdadf54efa964d0fb52736294177b06c', 'b64::JC50ZWFtSWQ=::46b', 'always', 60
-  %}/20200891"
+  %}/okampus-admin"
 name: /teams/members/{teamId}/{userId}
 description: ""
 method: PATCH
@@ -13,7 +13,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"roleLabel": "Responsable Pôle Développement"
+    	"role": "coowner"
     }
 parameters: []
 headers:
