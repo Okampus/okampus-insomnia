@@ -1,0 +1,23 @@
+_id: req_48f6559a43d74b45a57e21c8a6b765ef
+type: Request
+parentId: fld_39bcf06bab6e4050a7bd1753f18ad148
+modified: 1656448992166
+created: 1656441062262
+url: "{{ _.base_url }}/teams/event-registrations/{% response 'body',
+  'req_affab4e9a115472ea739d15eee2a5871',
+  'b64::JC50ZWFtRXZlbnRSZWdpc3RyYXRpb25JZA==::46b', 'always', 60 %}"
+name: /teams/event-registrations/{registrationId}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1651570590293.0625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

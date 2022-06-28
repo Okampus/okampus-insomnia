@@ -1,7 +1,7 @@
 _id: req_9ba1b83ac84c4eceab8ed02f975bfd93
 type: Request
 parentId: fld_b153b9e47c6e474897aa200570f6b3a3
-modified: 1653744958501
+modified: 1656438642163
 created: 1651571110597
 url: "{{ _.base_url }}/teams/events/{% response 'body',
   'req_a51398a15faf4944b19bad7a2e764a4a', 'b64::JC50ZWFtRXZlbnRJZA==::46b',
@@ -13,7 +13,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"private": true
+    	"private": false
     }
 parameters: []
 headers:

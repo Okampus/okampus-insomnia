@@ -1,17 +1,17 @@
-_id: req_a51398a15faf4944b19bad7a2e764a4a
+_id: req_affab4e9a115472ea739d15eee2a5871
 type: Request
-parentId: fld_b153b9e47c6e474897aa200570f6b3a3
-modified: 1656449101061
-created: 1651571014031
-url: "{{ _.base_url }}/teams/events/1"
-name: /teams/events/{eventId}
+parentId: fld_39bcf06bab6e4050a7bd1753f18ad148
+modified: 1656452348786
+created: 1656448792943
+url: "{{ _.base_url }}/teams/event-registrations/2"
+name: /teams/event-registrations/{registrationId}
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1651570612384
+metaSortKey: -1651570591026.0938
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

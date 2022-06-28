@@ -1,0 +1,31 @@
+_id: req_a25aa480243f4f498b04219241975aba
+type: Request
+parentId: fld_39bcf06bab6e4050a7bd1753f18ad148
+modified: 1656452658287
+created: 1656441062259
+url: "{{ _.base_url }}/teams/event-registrations"
+name: /teams/event-registrations
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_72a5a977cb034626bced6bf7ef34c7de
+    name: eventId
+    value: "1"
+    description: ""
+    disabled: true
+  - id: pair_4c4681a360404abb96aa5047a7b9a274
+    name: userId
+    value: aaa
+    description: ""
+    disabled: false
+headers: []
+authentication: {}
+metaSortKey: -1651570591759.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
