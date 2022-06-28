@@ -1,0 +1,46 @@
+_id: req_34d98d28f5644110bf7b2da753a59cc9
+type: Request
+parentId: fld_ead93dc0afe543d5b44779898ff89d0b
+modified: 1654981102698
+created: 1654979560487
+url: "{{ _.base_url }}/teams/metrics"
+name: /teams/metrics
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_31ec0d3fc2cf444b877edc2be703dfb5
+    name: name
+    value: clubCount
+    description: ""
+    disabled: true
+  - id: pair_5e8fa00e45a045c3b77c235dd82a7d5d
+    name: name
+    value: membershipCount
+    description: ""
+    disabled: true
+  - id: pair_227ce67c39d541ea83a52ae594d96972
+    name: name
+    value: uniqueMembershipCount
+    description: ""
+    disabled: false
+  - id: pair_b8aeb9c969f945749d4027ecc60e5097
+    name: name
+    value: eventCount
+    description: ""
+    disabled: true
+  - id: pair_1967cd7715174f71b50f827624c705bd
+    name: name
+    value: createdEventCount
+    description: ""
+    disabled: true
+headers: []
+authentication: {}
+metaSortKey: -1654979560487
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
