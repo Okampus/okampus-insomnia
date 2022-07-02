@@ -1,7 +1,7 @@
 _id: req_34d98d28f5644110bf7b2da753a59cc9
 type: Request
 parentId: fld_ead93dc0afe543d5b44779898ff89d0b
-modified: 1656437288657
+modified: 1656791498215
 created: 1654979560487
 url: "{{ _.base_url }}/teams/metrics"
 name: /teams/metrics
@@ -34,6 +34,21 @@ parameters:
     value: createdEventCount
     description: ""
     disabled: true
+  - id: pair_974928998e3e47b4917aa86b3d113447
+    name: after
+    value: 2022-06-30
+    description: ""
+  - id: pair_e493065a133b432e8cd32b18ed20f886
+    name: before
+    value: 2022-07-01
+    description: ""
+  - id: pair_b129eb96ac7548d0a6e5a7842cc00e5f
+    name: interval
+    value: "1800"
+    description: ""
+    type: text
+    multiline: false
+    disabled: false
 headers: []
 authentication: {}
 metaSortKey: -1654979560487
