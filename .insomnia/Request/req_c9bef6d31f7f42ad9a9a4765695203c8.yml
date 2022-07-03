@@ -1,7 +1,7 @@
 _id: req_c9bef6d31f7f42ad9a9a4765695203c8
 type: Request
 parentId: fld_b153b9e47c6e474897aa200570f6b3a3
-modified: 1656754783708
+modified: 1656857382082
 created: 1651570937860
 url: "{{ _.base_url }}/teams/events"
 name: /teams/events
@@ -18,10 +18,20 @@ parameters:
     name: after
     value: 2022-10-03T15:55:24.000Z
     description: ""
-    disabled: false
+    disabled: true
   - id: pair_7f1ac46042574b0b9e009c7f5821e419
     name: priceBelow
     value: "3"
+    description: ""
+    disabled: true
+  - id: pair_c9046651041d4f429f01d2cc0135caaa
+    name: state
+    value: draft
+    description: ""
+    disabled: true
+  - id: pair_5aacb32441ff45c8bc44f8ee26c8297d
+    name: teamId
+    value: "1"
     description: ""
     disabled: true
 headers: []

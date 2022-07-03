@@ -1,0 +1,23 @@
+_id: req_6e5a0f2cac654722b19837b72f236093
+type: Request
+parentId: fld_f438ec384d6b4a48849f595c7e6c2411
+modified: 1656841433970
+created: 1656841309738
+url: "{{ _.base_url }}/teams/form-templates/{% response 'body',
+  'req_ec61f2a137a845b8b73d7aad4bf0f4f9',
+  'b64::JC50ZWFtRm9ybVRlbXBsYXRlSWQ=::46b', 'always', 60 %}"
+name: /teams/form-templates/{formTemplateId}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1651570590293.0625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
