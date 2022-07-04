@@ -1,10 +1,10 @@
 _id: req_34d98d28f5644110bf7b2da753a59cc9
 type: Request
 parentId: fld_ead93dc0afe543d5b44779898ff89d0b
-modified: 1656791498215
+modified: 1656933147903
 created: 1654979560487
-url: "{{ _.base_url }}/teams/metrics"
-name: /teams/metrics
+url: "{{ _.base_url }}/metrics"
+name: /metrics
 description: ""
 method: GET
 body: {}
@@ -16,22 +16,27 @@ parameters:
     disabled: true
   - id: pair_5e8fa00e45a045c3b77c235dd82a7d5d
     name: name
-    value: membershipCount
+    value: clubMembershipCount
     description: ""
     disabled: true
   - id: pair_227ce67c39d541ea83a52ae594d96972
     name: name
-    value: uniqueMembershipCount
+    value: clubUniqueMembershipCount
     description: ""
     disabled: false
   - id: pair_b8aeb9c969f945749d4027ecc60e5097
     name: name
-    value: eventCount
+    value: clubEventCount
     description: ""
     disabled: true
   - id: pair_1967cd7715174f71b50f827624c705bd
     name: name
-    value: createdEventCount
+    value: clubCreatedEventCount
+    description: ""
+    disabled: true
+  - id: pair_13fa3678055b48d789f3871329ab50dd
+    name: name
+    value: userCount
     description: ""
     disabled: true
   - id: pair_974928998e3e47b4917aa86b3d113447

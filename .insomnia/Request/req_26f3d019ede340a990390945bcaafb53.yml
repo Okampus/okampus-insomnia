@@ -1,12 +1,12 @@
 _id: req_26f3d019ede340a990390945bcaafb53
 type: Request
 parentId: fld_f438ec384d6b4a48849f595c7e6c2411
-modified: 1656842507763
+modified: 1656862802305
 created: 1656841309714
-url: "{{ _.base_url }}/teams/form-templates/{% response 'body',
+url: "{{ _.base_url }}/teams/forms/{% response 'body',
   'req_bdadf54efa964d0fb52736294177b06c', 'b64::JC50ZWFtSWQ=::46b', 'always', 60
   %}"
-name: /teams/form-templates/{teamId}
+name: /teams/forms/{teamId}
 description: ""
 method: POST
 body:
@@ -15,6 +15,7 @@ body:
     {
     	"name": "Formulaire",
     	"description": "À N'UTILISER QUE POUR LES EVENTS DU JEUDI",
+    	"isTemplate": true,
     	"form": [
     		{
     			"$el": "div",

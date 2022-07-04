@@ -1,10 +1,10 @@
 _id: req_ec61f2a137a845b8b73d7aad4bf0f4f9
 type: Request
 parentId: fld_f438ec384d6b4a48849f595c7e6c2411
-modified: 1656842546098
+modified: 1656863626663
 created: 1656841309742
-url: "{{ _.base_url }}/teams/form-templates/5"
-name: /teams/form-templates/{formTemplateId}
+url: "{{ _.base_url }}/teams/forms/1"
+name: /teams/forms/{formId}
 description: ""
 method: GET
 body: {}
