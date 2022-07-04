@@ -1,27 +1,27 @@
-_id: req_9ba1b83ac84c4eceab8ed02f975bfd93
+_id: req_ee0bdc97f7aa4425b4d0a3a5f3ef73d2
 type: Request
-parentId: fld_b153b9e47c6e474897aa200570f6b3a3
-modified: 1656939584894
-created: 1651571110597
-url: "{{ _.base_url }}/teams/events/{% response 'body',
-  'req_a51398a15faf4944b19bad7a2e764a4a', 'b64::JC50ZWFtRXZlbnRJZA==::46b',
+parentId: fld_f438ec384d6b4a48849f595c7e6c2411
+modified: 1656969346869
+created: 1656933387493
+url: "{{ _.base_url }}/teams/forms/{% response 'body',
+  'req_ec61f2a137a845b8b73d7aad4bf0f4f9', 'b64::JC50ZWFtRm9ybUlk::46b',
   'always', 60 %}"
-name: /teams/events/{eventId}
+name: /teams/forms/{formId}
 description: ""
 method: PATCH
 body:
   mimeType: application/json
   text: |-
     {
-    	"templateId": 2
+    	"isTemplate": false
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_93773d1212cf497697550f576105e9dc
+    id: pair_baa10952ab324c47af17cf7f689f4ffb
 authentication: {}
-metaSortKey: -1651570600605.5
+metaSortKey: -1651570590659.5781
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

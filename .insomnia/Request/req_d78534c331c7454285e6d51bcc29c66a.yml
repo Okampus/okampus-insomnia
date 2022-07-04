@@ -1,7 +1,7 @@
 _id: req_d78534c331c7454285e6d51bcc29c66a
 type: Request
 parentId: fld_04c1310d7d7642359d8e6311a666cb6b
-modified: 1653905854271
+modified: 1656961786602
 created: 1645025223711
 url: "{{ _.base_url }}/teams/teams/{% response 'body',
   'req_bdadf54efa964d0fb52736294177b06c', 'b64::JC50ZWFtSWQ=::46b', 'always', 60
@@ -13,7 +13,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"avatar": null
+    	"membershipRequestFormId": null
     }
 parameters: []
 headers:
