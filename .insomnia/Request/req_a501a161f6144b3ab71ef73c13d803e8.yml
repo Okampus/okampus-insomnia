@@ -1,7 +1,7 @@
 _id: req_a501a161f6144b3ab71ef73c13d803e8
 type: Request
 parentId: fld_39bcf06bab6e4050a7bd1753f18ad148
-modified: 1656448914889
+modified: 1657313857821
 created: 1656441062257
 url: "{{ _.base_url }}/teams/event-registrations/{% response 'body',
   'req_a51398a15faf4944b19bad7a2e764a4a', 'b64::JC50ZWFtRXZlbnRJZA==::46b',
@@ -9,9 +9,17 @@ url: "{{ _.base_url }}/teams/event-registrations/{% response 'body',
 name: /teams/event-registrations/{eventId}
 description: ""
 method: POST
-body: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"status": "sure"
+    }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ae04af5d979c4f0fb602bc36cf6d236f
 authentication: {}
 metaSortKey: -1651570594691.25
 isPrivate: false

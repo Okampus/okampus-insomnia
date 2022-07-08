@@ -1,9 +1,9 @@
 _id: req_a51398a15faf4944b19bad7a2e764a4a
 type: Request
 parentId: fld_b153b9e47c6e474897aa200570f6b3a3
-modified: 1656864044466
+modified: 1657016727743
 created: 1651571014031
-url: "{{ _.base_url }}/teams/events/1"
+url: "{{ _.base_url }}/teams/events/3"
 name: /teams/events/{eventId}
 description: ""
 method: GET
