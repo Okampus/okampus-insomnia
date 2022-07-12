@@ -1,0 +1,27 @@
+_id: req_fe0fbdcedf22480f9b3e61919b4afed9
+type: Request
+parentId: fld_1bb9acf088e74aa5a9a7ea8268b5243d
+modified: 1657641812978
+created: 1657641807566
+url: "{{ _.base_url }}/announcements/{% response 'body',
+  'req_8505cdd3164e41eb8eaa85e81140fe67', 'b64::JC5hbm5vdW5jZW1lbnRJZA==::46b',
+  'always', 60 %}"
+name: /announcements/{announcementId}
+description: ""
+method: DELETE
+body: {}
+parameters:
+  - id: pair_9e1eaf4c4c254ca6beac4806b31566c3
+    name: state
+    value: all
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1655302490100.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

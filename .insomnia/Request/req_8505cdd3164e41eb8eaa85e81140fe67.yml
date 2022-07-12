@@ -1,0 +1,25 @@
+_id: req_8505cdd3164e41eb8eaa85e81140fe67
+type: Request
+parentId: fld_1bb9acf088e74aa5a9a7ea8268b5243d
+modified: 1657642230619
+created: 1657641651643
+url: "{{ _.base_url }}/announcements/1"
+name: /announcements/{announcementId}
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_9e1eaf4c4c254ca6beac4806b31566c3
+    name: state
+    value: all
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1656271278942
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

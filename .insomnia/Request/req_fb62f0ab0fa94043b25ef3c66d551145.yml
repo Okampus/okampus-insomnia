@@ -1,7 +1,7 @@
 _id: req_fb62f0ab0fa94043b25ef3c66d551145
 type: Request
 parentId: fld_be5fe17407b247a980b2b55b965c6061
-modified: 1647191680199
+modified: 1657322801541
 created: 1643039526130
 url: "{{ _.base_url }}/files/attachments"
 name: /files/attachments
@@ -21,7 +21,7 @@ body:
       name: contentId
       value: "1"
       description: ""
-      disabled: false
+      disabled: true
 parameters: []
 headers:
   - name: Content-Type

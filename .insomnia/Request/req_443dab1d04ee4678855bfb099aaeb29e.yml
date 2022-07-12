@@ -1,0 +1,35 @@
+_id: req_443dab1d04ee4678855bfb099aaeb29e
+type: Request
+parentId: fld_1bb9acf088e74aa5a9a7ea8268b5243d
+modified: 1657642226558
+created: 1657641667080
+url: "{{ _.base_url }}/announcements/{% response 'body',
+  'req_8505cdd3164e41eb8eaa85e81140fe67', 'b64::JC5hbm5vdW5jZW1lbnRJZA==::46b',
+  'always', 60 %}"
+name: /announcements/{announcementId}
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"state": "committed"
+    }
+parameters:
+  - id: pair_9e1eaf4c4c254ca6beac4806b31566c3
+    name: state
+    value: all
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_02538daa8b6d4cb5a554ee746e6e447e
+authentication: {}
+metaSortKey: -1655625419714.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
