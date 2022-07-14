@@ -1,0 +1,21 @@
+_id: req_0d6a88e766ac44ed9cd99bb3e7788df7
+type: Request
+parentId: fld_8c1b19c913a84a93ae99c0ef2f35e259
+modified: 1657807551393
+created: 1657802944082
+url: "{{ base_url }}/users/gdpr-dump"
+name: /users/gdpr-dump
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 121.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
