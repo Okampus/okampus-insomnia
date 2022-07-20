@@ -1,7 +1,7 @@
 _id: req_34528dcbfed44706b55a8d4e9403a364
 type: Request
 parentId: fld_04c1310d7d7642359d8e6311a666cb6b
-modified: 1657643851666
+modified: 1658252529515
 created: 1645025223725
 url: "{{ _.base_url }}/teams/teams"
 name: /teams/teams
@@ -14,8 +14,7 @@ body:
     	"name": "Efrei Crypto Paris",
     	"shortDescription": "On aime les Bitcoins",
     	"kind": "club",
-    	"category": "catégorie avec un nom élégant",
-    	"tags": ["ouii"]
+    	"category": "catégorie avec un nom élégant"
     }
 parameters: []
 headers:
