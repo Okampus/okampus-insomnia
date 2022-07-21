@@ -1,17 +1,17 @@
-_id: req_6679ef3a703d4fca800295f9d28b8e0e
+_id: req_36189cb22658479c8797145aef5075f4
 type: Request
-parentId: fld_f42f05851c684b0c9553e574fe528fdb
-modified: 1658418631732
-created: 1643106522463
-url: "{{ _.base_url }}/threads/1"
-name: /threads/{threadId}
+parentId: fld_8c1b19c913a84a93ae99c0ef2f35e259
+modified: 1658330760376
+created: 1658330663409
+url: "{{ _.base_url }}/settings"
+name: /settings
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: 200
+metaSortKey: 184.375
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

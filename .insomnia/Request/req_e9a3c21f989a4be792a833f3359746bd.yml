@@ -1,17 +1,17 @@
-_id: req_6679ef3a703d4fca800295f9d28b8e0e
+_id: req_e9a3c21f989a4be792a833f3359746bd
 type: Request
-parentId: fld_f42f05851c684b0c9553e574fe528fdb
-modified: 1658418631732
-created: 1643106522463
-url: "{{ _.base_url }}/threads/1"
-name: /threads/{threadId}
+parentId: fld_ecf804e7f2e54b1fb0d258fb85d205af
+modified: 1658429752531
+created: 1658429592325
+url: "{{ _.base_url }}/teams/finances/3"
+name: /teams/finances/{financeId}
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: 200
+metaSortKey: -1651570591026.0938
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

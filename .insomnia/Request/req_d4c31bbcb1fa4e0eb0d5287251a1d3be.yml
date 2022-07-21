@@ -1,0 +1,36 @@
+_id: req_d4c31bbcb1fa4e0eb0d5287251a1d3be
+type: Request
+parentId: fld_ecf804e7f2e54b1fb0d258fb85d205af
+modified: 1658429746817
+created: 1658429592310
+url: "{{ _.base_url }}/teams/finances/{% response 'body',
+  'req_bdadf54efa964d0fb52736294177b06c', 'b64::JC5pZA==::46b', 'always', 60 %}"
+name: /teams/finances/{teamId}
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"amount": 20,
+    	"category": 3,
+    	"title": "Bonbons (beaucoup)",
+    	"mean": "cash",
+    	"description": "LaserGame tout seul",
+    	"type": "expense",
+    	"event": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_674a3f5686f6488ca6c4ba722b22cf58
+authentication: {}
+metaSortKey: -1651570594691.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

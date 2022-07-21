@@ -1,0 +1,22 @@
+_id: req_3d53195477fd42268c3b7b62b7c9bebf
+type: Request
+parentId: fld_ecf804e7f2e54b1fb0d258fb85d205af
+modified: 1658429782740
+created: 1658429592322
+url: "{{ _.base_url }}/teams/finances/{% response 'body',
+  'req_e9a3c21f989a4be792a833f3359746bd', 'b64::JC5pZA==::46b', 'always', 60 %}"
+name: /teams/finances/{financeId}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1651570590293.0625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

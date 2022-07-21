@@ -1,9 +1,9 @@
 _id: req_ea48c457414a4400ae900a965326428e
 type: Request
 parentId: fld_f42f05851c684b0c9553e574fe528fdb
-modified: 1653578291434
+modified: 1658418662284
 created: 1643106542640
-url: "{{ _.base_url }}/threads/2"
+url: "{{ _.base_url }}/threads/1"
 name: /threads/{threadId}
 description: ""
 method: PATCH
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"adminValidatedWith": 4
+    	"title": "a new title"
     }
 parameters: []
 headers:

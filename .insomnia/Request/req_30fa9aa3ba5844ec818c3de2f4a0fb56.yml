@@ -1,25 +1,25 @@
-_id: req_68e997451c8f4561b4c0e9916caae9db
+_id: req_30fa9aa3ba5844ec818c3de2f4a0fb56
 type: Request
-parentId: fld_f42f05851c684b0c9553e574fe528fdb
-modified: 1658419321009
-created: 1643106802770
-url: "{{ _.base_url }}/threads/1/assignees"
-name: /threads/{threadId}/assignees
+parentId: fld_ecf804e7f2e54b1fb0d258fb85d205af
+modified: 1658429783730
+created: 1658429592328
+url: "{{ _.base_url }}/teams/finances/3"
+name: /teams/finances/{financeId}
 description: ""
-method: POST
+method: PATCH
 body:
   mimeType: application/json
   text: |-
     {
-    	"assignees": ["okampus-admin"]
+    	"event": null
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_db6dcf547c994a819926c7861500f3b7
+    id: pair_baa10952ab324c47af17cf7f689f4ffb
 authentication: {}
-metaSortKey: 500
+metaSortKey: -1651570590659.5781
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

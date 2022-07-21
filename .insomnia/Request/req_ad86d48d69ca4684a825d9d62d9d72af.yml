@@ -1,0 +1,27 @@
+_id: req_ad86d48d69ca4684a825d9d62d9d72af
+type: Request
+parentId: fld_ecf804e7f2e54b1fb0d258fb85d205af
+modified: 1658429662604
+created: 1658429592319
+url: "{{ _.base_url }}/teams/finances"
+name: /teams/finances
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_72a5a977cb034626bced6bf7ef34c7de
+    name: id
+    value: "{% response 'body', 'req_bdadf54efa964d0fb52736294177b06c',
+      'b64::JC5pZA==::46b', 'always', 60 %}"
+    description: ""
+    disabled: false
+headers: []
+authentication: {}
+metaSortKey: -1651570591759.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
