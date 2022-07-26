@@ -1,7 +1,7 @@
 _id: req_ce8e871f48d04cf6af3b99c6c614e4cc
 type: Request
 parentId: fld_675a2eeb77404c8f888e7fc8af370c8c
-modified: 1653578691803
+modified: 1658488196351
 created: 1645108356891
 url: "{{ _.base_url }}/restaurant/daily-menus"
 name: /restaurant/daily-menus
@@ -11,10 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"starters": [1],
-    	"dishes": ["2"],
-      "desserts": [3],
-    	"date": "2022-02-17"
+    	"food": [1, 2, 4, 5, 6],
+    	"date": "2022-02-18"
     }
 parameters: []
 headers:

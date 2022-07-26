@@ -1,26 +1,22 @@
-_id: req_7bc7ebb767a34d99947f080a4b267cb3
+_id: req_7907c9fedf86455d88f4b68a8c38e074
 type: Request
-parentId: fld_d3bd287cbbb44e648de25d2141a703b9
-modified: 1658860801701
-created: 1652885675869
-url: "{{ base_url }}/auth/login"
-name: /auth/login-aaa
+parentId: fld_12fbac4d3d4a477b9a14d9227c154994
+modified: 1658843197202
+created: 1658842500701
+url: "{{ _.base_url }}/configurations/configurations"
+name: /configurations/configurations
 description: ""
-method: POST
+method: PATCH
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"username": "aaa",
-    	"password": "root"
-    }
+  text: "{}"
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_a709dd0229bc4c6c885d63c2296834cb
+    id: pair_42084ca0e682459abb4e8e3454f798c9
 authentication: {}
-metaSortKey: 275
+metaSortKey: 200
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

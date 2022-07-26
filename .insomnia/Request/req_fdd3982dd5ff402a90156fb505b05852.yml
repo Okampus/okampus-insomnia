@@ -1,7 +1,7 @@
 _id: req_fdd3982dd5ff402a90156fb505b05852
 type: Request
 parentId: fld_4e7bd446b6fd428d9e6185bba5df119b
-modified: 1653578681312
+modified: 1658487446300
 created: 1645092488205
 url: "{{ _.base_url }}/restaurant/daily-info"
 name: /restaurant/daily-info

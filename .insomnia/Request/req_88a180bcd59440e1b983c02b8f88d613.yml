@@ -1,0 +1,25 @@
+_id: req_88a180bcd59440e1b983c02b8f88d613
+type: Request
+parentId: fld_f201342c383a4a7f91bf80d7ffe6e559
+modified: 1658845942504
+created: 1658843205072
+url: "{{ _.base_url }}/configurations/validation-steps"
+name: /configurations/validation-steps
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_df74736506c44604bcad4072b587f61e
+    name: type
+    value: team-event
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: 0
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

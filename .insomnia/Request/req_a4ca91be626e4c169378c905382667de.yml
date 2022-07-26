@@ -1,0 +1,21 @@
+_id: req_a4ca91be626e4c169378c905382667de
+type: Request
+parentId: fld_a23023316c8c41478df135ab9c9e6db6
+modified: 1658860767686
+created: 1658860765749
+url: "{{ _.base_url }}/teams/event-validations/remaining/my-events"
+name: /teams/event-validations/remaining/my-events
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1651570590842.836
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

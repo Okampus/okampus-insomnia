@@ -1,0 +1,39 @@
+_id: req_c75bec0b63c94e1aa8ae3578b6be0d4e
+type: Request
+parentId: fld_f201342c383a4a7f91bf80d7ffe6e559
+modified: 1658854878997
+created: 1658843205094
+url: "{{ _.base_url }}/configurations/validation-steps/1/users/ccc"
+name: /configurations/validation-steps/{id}/users/{userId}
+description: ""
+method: POST
+body: {}
+parameters:
+  - id: pair_41651e497e854e459adb35d179383f8c
+    name: q
+    value: TI
+    description: ""
+    disabled: false
+  - id: pair_3a83f7af65294237a79a4add253fc2cc
+    name: query_by
+    value: code,name,englishName,description
+    description: ""
+  - id: pair_122fffae14e44938a795a5409059b9a3
+    name: full
+    value: "true"
+    description: ""
+    disabled: true
+  - id: pair_c8c127fb58634b249fe9fcc2405d9835
+    name: query_by_weights
+    value: 10,4,4,2
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: 500
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

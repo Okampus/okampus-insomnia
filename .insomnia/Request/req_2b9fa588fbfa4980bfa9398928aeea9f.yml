@@ -1,26 +1,26 @@
-_id: req_7bc7ebb767a34d99947f080a4b267cb3
+_id: req_2b9fa588fbfa4980bfa9398928aeea9f
 type: Request
-parentId: fld_d3bd287cbbb44e648de25d2141a703b9
-modified: 1658860801701
-created: 1652885675869
-url: "{{ base_url }}/auth/login"
-name: /auth/login-aaa
+parentId: fld_a23023316c8c41478df135ab9c9e6db6
+modified: 1658855945885
+created: 1658855080488
+url: "{{ _.base_url }}/teams/event-validations/2"
+name: /teams/event-validations/{eventId}
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"username": "aaa",
-    	"password": "root"
+    	"approved": false,
+    	"message": "not ok"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_a709dd0229bc4c6c885d63c2296834cb
+    id: pair_ae04af5d979c4f0fb602bc36cf6d236f
 authentication: {}
-metaSortKey: 275
+metaSortKey: -1651570594691.25
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

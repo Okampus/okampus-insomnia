@@ -1,11 +1,10 @@
 _id: req_66787e46955e4dedb81be8bc37748346
 type: Request
 parentId: fld_b442df673c484b17ac996ce74927b30b
-modified: 1651832538082
+modified: 1658509963726
 created: 1651420366479
 url: "{{ _.base_url }}/teams/requests/{% response 'body',
-  'req_bdadf54efa964d0fb52736294177b06c', 'b64::JC50ZWFtSWQ=::46b', 'always', 60
-  %}"
+  'req_bdadf54efa964d0fb52736294177b06c', 'b64::JC5pZA==::46b', 'always', 60 %}"
 name: /teams/requests/{teamId}
 description: ""
 method: GET
@@ -18,8 +17,9 @@ parameters:
     disabled: true
   - id: pair_126fc7cf92bb40cc95d193394a5070f9
     name: type
-    value: in
+    value: incoming
     description: ""
+    disabled: false
 headers: []
 authentication: {}
 metaSortKey: 950

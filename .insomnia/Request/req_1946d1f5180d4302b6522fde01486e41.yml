@@ -1,17 +1,17 @@
-_id: req_cf62514f560c4c5681bdc8f730e473f9
+_id: req_1946d1f5180d4302b6522fde01486e41
 type: Request
-parentId: fld_675a2eeb77404c8f888e7fc8af370c8c
-modified: 1658488206418
-created: 1645108356905
-url: "{{ _.base_url }}/restaurant/daily-menus/2"
-name: /restaurant/daily-menus/{date}
+parentId: fld_f201342c383a4a7f91bf80d7ffe6e559
+modified: 1658845982359
+created: 1658843205087
+url: "{{ _.base_url }}/configurations/validation-steps/1"
+name: /configurations/validation-steps/{id}
 description: ""
-method: GET
+method: DELETE
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: 150
+metaSortKey: 300
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

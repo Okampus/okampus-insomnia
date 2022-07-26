@@ -1,24 +1,26 @@
-_id: req_c0d9eee37c6440849a8f79b6e5f0ca64
+_id: req_b1e9ced2836347578424a7e558bb4742
 type: Request
-parentId: fld_da4d50404b104c3f97001dd5c41636ff
-modified: 1658488186719
-created: 1645114351970
-url: "{{ _.base_url }}/restaurant/food"
-name: /restaurant/food
+parentId: fld_f201342c383a4a7f91bf80d7ffe6e559
+modified: 1658855183318
+created: 1658843205090
+url: "{{ _.base_url }}/configurations/validation-steps"
+name: /configurations/validation-steps
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"name": "frites",
-    	"type": 1
+    	"step": 3,
+    	"name": "Étape 3",
+    	"type": "team-event",
+    	"users": ["fff"]
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_daf9a186975942278cac338c8abd1de5
+    id: pair_42084ca0e682459abb4e8e3454f798c9
 authentication: {}
 metaSortKey: -50
 isPrivate: false

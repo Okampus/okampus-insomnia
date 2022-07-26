@@ -1,23 +1,24 @@
-_id: req_30fa9aa3ba5844ec818c3de2f4a0fb56
+_id: req_1bf9346d9f6140cca8bb802ca182ff51
 type: Request
-parentId: fld_ecf804e7f2e54b1fb0d258fb85d205af
-modified: 1658485263944
-created: 1658429592328
-url: "{{ _.base_url }}/teams/finances/3"
-name: /teams/finances/{financeId}
+parentId: fld_39bcf06bab6e4050a7bd1753f18ad148
+modified: 1658491258454
+created: 1658491151255
+url: "{{ _.base_url }}/teams/event-registrations/{% response 'body',
+  'req_affab4e9a115472ea739d15eee2a5871', 'b64::JC5pZA==::46b', 'always', 60 %}"
+name: /teams/event-registrations/{registrationId}
 description: ""
 method: PATCH
 body:
   mimeType: application/json
   text: |-
     {
-    	"event": null
+    	"present": false
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_baa10952ab324c47af17cf7f689f4ffb
+    id: pair_ae04af5d979c4f0fb602bc36cf6d236f
 authentication: {}
 metaSortKey: -1651570590659.5781
 isPrivate: false

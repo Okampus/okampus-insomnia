@@ -1,22 +1,22 @@
-_id: req_a25aa480243f4f498b04219241975aba
+_id: req_e06bc3150f9a49cda04ac9414dccbde6
 type: Request
-parentId: fld_39bcf06bab6e4050a7bd1753f18ad148
-modified: 1658491122746
-created: 1656441062259
-url: "{{ _.base_url }}/teams/event-registrations"
-name: /teams/event-registrations
+parentId: fld_a23023316c8c41478df135ab9c9e6db6
+modified: 1658855735953
+created: 1658855080495
+url: "{{ _.base_url }}/teams/event-validations"
+name: /teams/event-validations
 description: ""
 method: GET
 body: {}
 parameters:
   - id: pair_72a5a977cb034626bced6bf7ef34c7de
-    name: eventId
-    value: "2"
+    name: step
+    value: "1"
     description: ""
-    disabled: false
+    disabled: true
   - id: pair_4c4681a360404abb96aa5047a7b9a274
-    name: userId
-    value: aaa
+    name: state
+    value: published
     description: ""
     disabled: true
 headers: []

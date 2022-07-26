@@ -1,9 +1,9 @@
 _id: req_dea92d902cbe4c86975911dfd52abe1e
 type: Request
 parentId: fld_d3bd287cbbb44e648de25d2141a703b9
-modified: 1647191680097
+modified: 1658853439467
 created: 1643039525906
-url: "{{ _.base_url }}/auth/me "
+url: "{{ _.base_url }}/auth/me"
 name: /auth/me
 description: ""
 method: GET
