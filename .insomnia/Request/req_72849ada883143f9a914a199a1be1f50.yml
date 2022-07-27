@@ -1,0 +1,29 @@
+_id: req_72849ada883143f9a914a199a1be1f50
+type: Request
+parentId: fld_d19d69ee1d5a4055a2cf48dd2468538b
+modified: 1658881450481
+created: 1658866785552
+url: "{{ _.base_url }}/school-groups/1"
+name: /school-groups/{schoolGroupId}
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"description": "oui oui nouvelle description"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_42084ca0e682459abb4e8e3454f798c9
+authentication: {}
+metaSortKey: 200
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

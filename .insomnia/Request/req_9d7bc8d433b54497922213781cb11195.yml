@@ -1,0 +1,29 @@
+_id: req_9d7bc8d433b54497922213781cb11195
+type: Request
+parentId: fld_d3bd287cbbb44e648de25d2141a703b9
+modified: 1657839827128
+created: 1657827397156
+url: "{{ base_url }}/auth/ws-token"
+name: /auth/ws-token
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"refreshToken": ""
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a709dd0229bc4c6c885d63c2296834cb
+authentication: {}
+metaSortKey: 350
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

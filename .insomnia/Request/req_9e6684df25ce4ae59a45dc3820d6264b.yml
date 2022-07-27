@@ -1,0 +1,21 @@
+_id: req_9e6684df25ce4ae59a45dc3820d6264b
+type: Request
+parentId: fld_a303eaec9ab14fdbaf9d44be55d286a2
+modified: 1658882032711
+created: 1658866904667
+url: "{{ _.base_url }}/school-groups/memberships/1/okampus-admin"
+name: /school-groups/memberships/{schoolGroupId}/{userId}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 650
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

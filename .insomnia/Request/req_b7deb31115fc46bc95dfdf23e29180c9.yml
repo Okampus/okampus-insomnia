@@ -1,0 +1,29 @@
+_id: req_b7deb31115fc46bc95dfdf23e29180c9
+type: Request
+parentId: fld_e24af00de4244d3196769eb312346701
+modified: 1658881791582
+created: 1658866793647
+url: "{{ _.base_url }}/school-years/1"
+name: /school-years/{schoolYearId}
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "P2028"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_42084ca0e682459abb4e8e3454f798c9
+authentication: {}
+metaSortKey: 200
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

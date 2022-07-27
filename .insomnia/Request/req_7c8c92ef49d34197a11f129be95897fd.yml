@@ -1,0 +1,21 @@
+_id: req_7c8c92ef49d34197a11f129be95897fd
+type: Request
+parentId: fld_d19d69ee1d5a4055a2cf48dd2468538b
+modified: 1658881480873
+created: 1658866785554
+url: "{{ _.base_url }}/school-groups/1"
+name: /school-groups/{schoolGroupId}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 300
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

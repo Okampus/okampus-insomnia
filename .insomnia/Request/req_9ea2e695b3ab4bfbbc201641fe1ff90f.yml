@@ -1,0 +1,30 @@
+_id: req_9ea2e695b3ab4bfbbc201641fe1ff90f
+type: Request
+parentId: fld_a303eaec9ab14fdbaf9d44be55d286a2
+modified: 1658882001518
+created: 1658866904664
+url: "{{ _.base_url }}/school-groups/memberships/1/okampus-admin"
+name: /school-groups/memberships/{schoolGroupId}/{userId}
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"schoolYearId": 2,
+    	"schoolGroupRole": "student"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_8b38aeae11974e7aa59fe4832936090a
+authentication: {}
+metaSortKey: 550
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

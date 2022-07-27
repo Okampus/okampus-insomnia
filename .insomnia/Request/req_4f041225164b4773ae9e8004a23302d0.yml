@@ -1,0 +1,21 @@
+_id: req_4f041225164b4773ae9e8004a23302d0
+type: Request
+parentId: fld_e24af00de4244d3196769eb312346701
+modified: 1658881631466
+created: 1658866793653
+url: "{{ _.base_url }}/school-years/1"
+name: /school-years/{schoolYearId}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

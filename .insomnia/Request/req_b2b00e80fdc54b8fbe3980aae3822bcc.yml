@@ -1,0 +1,21 @@
+_id: req_b2b00e80fdc54b8fbe3980aae3822bcc
+type: Request
+parentId: fld_e24af00de4244d3196769eb312346701
+modified: 1658881787100
+created: 1658866793650
+url: "{{ _.base_url }}/school-years/1"
+name: /school-years/{schoolYearId}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 300
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

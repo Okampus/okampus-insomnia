@@ -1,0 +1,30 @@
+_id: req_6230a304f50548b893f0a26d280be257
+type: Request
+parentId: fld_d19d69ee1d5a4055a2cf48dd2468538b
+modified: 1658881445644
+created: 1658866785556
+url: "{{ _.base_url }}/school-groups/"
+name: /school-groups
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Test",
+    	"code": "Test"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_42084ca0e682459abb4e8e3454f798c9
+authentication: {}
+metaSortKey: -50
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

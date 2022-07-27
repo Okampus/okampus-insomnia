@@ -1,0 +1,29 @@
+_id: req_432a33edb12846118c5ffb29f9b1e79c
+type: Request
+parentId: fld_e24af00de4244d3196769eb312346701
+modified: 1658881517211
+created: 1658866793651
+url: "{{ _.base_url }}/school-years/"
+name: /school-years
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "2027"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_42084ca0e682459abb4e8e3454f798c9
+authentication: {}
+metaSortKey: -50
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

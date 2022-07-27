@@ -1,0 +1,21 @@
+_id: req_92b61735b5d94fb89410b1a05cb2db62
+type: Request
+parentId: fld_a303eaec9ab14fdbaf9d44be55d286a2
+modified: 1658881141630
+created: 1658881138285
+url: "{{ _.base_url }}/school-groups/memberships/all"
+name: /school-groups/memberships/all
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: 512.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
