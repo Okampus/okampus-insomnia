@@ -1,9 +1,9 @@
 _id: req_437c437acd574d0e8be8d5b8575fd712
 type: Request
 parentId: fld_a23023316c8c41478df135ab9c9e6db6
-modified: 1658860789471
+modified: 1658867885690
 created: 1658860772021
-url: "{{ _.base_url }}/teams/event-validations/remaining/for-event/1"
+url: "{{ _.base_url }}/teams/event-validations/remaining/for-event/3"
 name: /teams/event-validations/remaining/for-event/{eventId}
 description: ""
 method: GET
