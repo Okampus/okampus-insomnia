@@ -1,10 +1,10 @@
 _id: req_fff30d3cf18b4b2da63f2f39d041a54e
 type: Request
 parentId: fld_b62435fc138d4bab8b22331932154d62
-modified: 1653577871473
+modified: 1658940554995
 created: 1643039526339
-url: "{{ _.base_url }}/contacts/clubs/account/3"
-name: /contacts/clubs/account/{accountId}
+url: "{{ _.base_url }}/contacts/teams/account/3"
+name: /contacts/teams/account/{accountId}
 description: ""
 method: PATCH
 body:

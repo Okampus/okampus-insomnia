@@ -1,17 +1,17 @@
 _id: req_cb214706460d4449819bd1036c3150bb
 type: Request
 parentId: fld_b62435fc138d4bab8b22331932154d62
-modified: 1653577902456
+modified: 1658940535201
 created: 1643039526353
-url: "{{ _.base_url }}/contacts/clubs/1"
-name: /contacts/clubs/{clubId}
+url: "{{ _.base_url }}/contacts/teams/1"
+name: /contacts/teams/{clubId}
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"contactId": 2,
+    	"id": 1,
     	"link": "elliot@maisl.fr",
     	"pseudo": "elliot@maisl.fr"
     }

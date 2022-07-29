@@ -1,7 +1,7 @@
 _id: req_b1e9ced2836347578424a7e558bb4742
 type: Request
 parentId: fld_f201342c383a4a7f91bf80d7ffe6e559
-modified: 1658855183318
+modified: 1658941942608
 created: 1658843205090
 url: "{{ _.base_url }}/configurations/validation-steps"
 name: /configurations/validation-steps
@@ -11,10 +11,10 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"step": 3,
-    	"name": "Étape 3",
+    	"step": 1,
+    	"name": "Étape 1",
     	"type": "team-event",
-    	"users": ["fff"]
+    	"users": ["okampus-admin", "aaa"]
     }
 parameters: []
 headers:

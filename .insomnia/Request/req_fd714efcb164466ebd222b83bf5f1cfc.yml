@@ -1,10 +1,10 @@
 _id: req_fd714efcb164466ebd222b83bf5f1cfc
 type: Request
 parentId: fld_b62435fc138d4bab8b22331932154d62
-modified: 1653577868763
+modified: 1658940523300
 created: 1643039526350
-url: "{{ _.base_url }}/contacts/clubs/1"
-name: /contacts/clubs/{clubId}
+url: "{{ _.base_url }}/contacts/teams/1"
+name: /contacts/teams/{clubId}
 description: ""
 method: GET
 body: {}

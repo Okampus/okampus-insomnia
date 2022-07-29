@@ -1,7 +1,7 @@
 _id: req_7bc7ebb767a34d99947f080a4b267cb3
 type: Request
 parentId: fld_d3bd287cbbb44e648de25d2141a703b9
-modified: 1658918864428
+modified: 1659012641046
 created: 1652885675869
 url: "{{ base_url }}/auth/login"
 name: /auth/login-aaa
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"username": "aaa",
+    	"username": "bbb",
     	"password": "root"
     }
 parameters: []

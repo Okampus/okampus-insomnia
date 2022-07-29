@@ -1,10 +1,10 @@
 _id: req_16223a9e06744314be98f36cfb33f2e8
 type: Request
 parentId: fld_b62435fc138d4bab8b22331932154d62
-modified: 1653577874185
+modified: 1658940519077
 created: 1645310770079
-url: "{{ _.base_url }}/contacts/clubs/account/5"
-name: /contacts/clubs/account/{accountId}
+url: "{{ _.base_url }}/contacts/teams/account/5"
+name: /contacts/teams/account/{accountId}
 description: ""
 method: DELETE
 body: {}
