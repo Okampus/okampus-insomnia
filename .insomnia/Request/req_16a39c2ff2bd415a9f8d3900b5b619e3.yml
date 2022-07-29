@@ -1,10 +1,10 @@
-_id: req_68e997451c8f4561b4c0e9916caae9db
+_id: req_16a39c2ff2bd415a9f8d3900b5b619e3
 type: Request
 parentId: fld_f42f05851c684b0c9553e574fe528fdb
-modified: 1659054714850
-created: 1643106802770
-url: "{{ _.base_url }}/threads/1/assignees/teams"
-name: /threads/{threadId}/assignees/teams
+modified: 1659054682765
+created: 1659054586980
+url: "{{ _.base_url }}/threads/1/assignees/users"
+name: /threads/{threadId}/assignees/users
 description: ""
 method: POST
 body:
@@ -19,7 +19,7 @@ headers:
     value: application/json
     id: pair_db6dcf547c994a819926c7861500f3b7
 authentication: {}
-metaSortKey: 500
+metaSortKey: 618.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

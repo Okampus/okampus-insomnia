@@ -1,10 +1,10 @@
 _id: req_67f420d8c94049a383c2aed7b0a02195
 type: Request
 parentId: fld_f42f05851c684b0c9553e574fe528fdb
-modified: 1658419326792
+modified: 1659054686908
 created: 1643106816145
-url: "{{ _.base_url }}/threads/1/assignees"
-name: /threads/{threadId}/assignees
+url: "{{ _.base_url }}/threads/1/assignees/teams"
+name: /threads/{threadId}/assignees/teams
 description: ""
 method: DELETE
 body:

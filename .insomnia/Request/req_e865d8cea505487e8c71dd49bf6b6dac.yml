@@ -1,12 +1,12 @@
-_id: req_68e997451c8f4561b4c0e9916caae9db
+_id: req_e865d8cea505487e8c71dd49bf6b6dac
 type: Request
 parentId: fld_f42f05851c684b0c9553e574fe528fdb
-modified: 1659054714850
-created: 1643106802770
-url: "{{ _.base_url }}/threads/1/assignees/teams"
-name: /threads/{threadId}/assignees/teams
+modified: 1659054679749
+created: 1659054590964
+url: "{{ _.base_url }}/threads/1/assignees/users"
+name: /threads/{threadId}/assignees/users
 description: ""
-method: POST
+method: DELETE
 body:
   mimeType: application/json
   text: |-
@@ -19,7 +19,7 @@ headers:
     value: application/json
     id: pair_db6dcf547c994a819926c7861500f3b7
 authentication: {}
-metaSortKey: 500
+metaSortKey: 637.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
