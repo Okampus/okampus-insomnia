@@ -1,0 +1,23 @@
+_id: req_5596ca8b28324f4fa1eecaf6ab94391b
+type: Request
+parentId: fld_c6c02cce30944789883ff4d725818ad5
+modified: 1659104707281
+created: 1659104692960
+url: "{{ _.base_url
+  }}/teams/ical/I1Pqn3lrh89puM19rKsku8J5_htui5zRzOL8HyUHxneyyRqtknNKtvszo8w88Rf\
+  Z"
+name: /teams/ical/{id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1658333827856
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
