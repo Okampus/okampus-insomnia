@@ -1,7 +1,7 @@
 _id: req_9b7611fd9ec0433ab9e6c43d886488d9
 type: Request
 parentId: fld_c04d9070836343c99f41bc49635fad44
-modified: 1648080676280
+modified: 1660230201987
 created: 1643039526106
 url: "{{ _.base_url }}/files/info-docs"
 name: /files/info-docs
@@ -15,7 +15,7 @@ body:
       value: ""
       description: ""
       type: file
-      fileName: /Users/elliotmaisl/Documents/Wallpapers/Colorful BeeHive.jpg
+      fileName: /home/iv-stpn/Pictures/pointing hand.png
       disabled: false
     - id: pair_bd4c2b66357c4fd8bb5dc760f990e4f0
       name: year
@@ -23,10 +23,6 @@ body:
       description: ""
       type: text
       multiline: false
-    - id: pair_b26064325ac64bb4a26de064afa48171
-      name: schoolYear
-      value: "1"
-      description: ""
 parameters: []
 headers:
   - name: Content-Type

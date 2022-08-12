@@ -1,10 +1,10 @@
 _id: req_7907c9fedf86455d88f4b68a8c38e074
 type: Request
 parentId: fld_12fbac4d3d4a477b9a14d9227c154994
-modified: 1658843197202
+modified: 1660229592918
 created: 1658842500701
-url: "{{ _.base_url }}/configurations/configurations"
-name: /configurations/configurations
+url: "{{ _.base_url }}/tenants/tenants"
+name: /tenants/tenants
 description: ""
 method: PATCH
 body:

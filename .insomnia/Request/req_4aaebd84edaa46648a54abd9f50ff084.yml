@@ -1,10 +1,10 @@
 _id: req_4aaebd84edaa46648a54abd9f50ff084
 type: Request
 parentId: fld_f201342c383a4a7f91bf80d7ffe6e559
-modified: 1658854861673
+modified: 1660229672559
 created: 1658843344026
-url: "{{ _.base_url }}/configurations/validation-steps/2/users/aaa"
-name: /configurations/validation-steps/{id}/users/{userId}
+url: "{{ _.base_url }}/tenants/validation-steps/2/users/aaa"
+name: /tenants/validation-steps/{id}/users/{userId}
 description: ""
 method: DELETE
 body: {}

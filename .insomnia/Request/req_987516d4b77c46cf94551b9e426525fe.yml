@@ -1,10 +1,10 @@
 _id: req_987516d4b77c46cf94551b9e426525fe
 type: Request
 parentId: fld_12fbac4d3d4a477b9a14d9227c154994
-modified: 1658843100240
+modified: 1660229572581
 created: 1658842500697
-url: "{{ _.base_url }}/configurations/configurations"
-name: /configurations/configurations
+url: "{{ _.base_url }}/tenants/tenants"
+name: /tenants/tenants
 description: ""
 method: GET
 body: {}

@@ -1,10 +1,10 @@
 _id: req_88a180bcd59440e1b983c02b8f88d613
 type: Request
 parentId: fld_f201342c383a4a7f91bf80d7ffe6e559
-modified: 1658845942504
+modified: 1660229648923
 created: 1658843205072
-url: "{{ _.base_url }}/configurations/validation-steps"
-name: /configurations/validation-steps
+url: "{{ _.base_url }}/tenants/validation-steps"
+name: /tenants/validation-steps
 description: ""
 method: GET
 body: {}

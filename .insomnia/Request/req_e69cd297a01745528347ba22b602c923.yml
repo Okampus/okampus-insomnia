@@ -1,9 +1,9 @@
 _id: req_e69cd297a01745528347ba22b602c923
 type: Request
 parentId: fld_d3bd287cbbb44e648de25d2141a703b9
-modified: 1659104699846
+modified: 1660311335633
 created: 1643039525903
-url: "{{ base_url }}/auth/login"
+url: "{{ _.base_url }}/auth/login"
 name: /auth/login
 description: ""
 method: POST

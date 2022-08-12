@@ -1,10 +1,9 @@
 _id: req_fb889bf9b0f849b4956f71129c0e52c5
 type: Request
 parentId: fld_b153b9e47c6e474897aa200570f6b3a3
-modified: 1659364595948
+modified: 1660054886551
 created: 1651570683055
-url: "{{ _.base_url }}/teams/events/{% response 'body',
-  'req_bdadf54efa964d0fb52736294177b06c', 'b64::JC5pZA==::46b', 'always', 60 %}"
+url: "{{ _.base_url }}/teams/events/1"
 name: /teams/events/{teamId}
 description: ""
 method: POST

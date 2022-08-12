@@ -1,7 +1,7 @@
 _id: req_a7b98c53faa44007b7369156b889251f
 type: Request
 parentId: fld_d3bd287cbbb44e648de25d2141a703b9
-modified: 1659104699370
+modified: 1660311804621
 created: 1653498741912
 url: "{{ base_url }}/auth/register"
 name: /auth/register
@@ -12,6 +12,7 @@ body:
   text: |-
     {
     	"id": "bbb",
+    	"tenantId": "efrei",
     	"firstname": "bbb",
     	"lastname": "bbb",
     	"email": "bbb@gmail.com",

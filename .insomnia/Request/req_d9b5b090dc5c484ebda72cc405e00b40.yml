@@ -1,10 +1,10 @@
 _id: req_d9b5b090dc5c484ebda72cc405e00b40
 type: Request
 parentId: fld_f201342c383a4a7f91bf80d7ffe6e559
-modified: 1658845975935
+modified: 1660229678799
 created: 1658843205082
-url: "{{ _.base_url }}/configurations/validation-steps/1"
-name: /configurations/validation-steps/{id}
+url: "{{ _.base_url }}/tenants/validation-steps/1"
+name: /tenants/validation-steps/{id}
 description: ""
 method: PATCH
 body:
