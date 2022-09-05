@@ -1,7 +1,7 @@
 _id: env_33fe2f86b3b2431fa533b8e8a1ea6685
 type: Environment
 parentId: wrk_2defc8b6b23c4abe9acffc1601191706
-modified: 1653751984516
+modified: 1661890653818
 created: 1643039525877
 name: Base environment
 data:
@@ -9,12 +9,17 @@ data:
   base_url_: https://api.okampus.fr
   httpUsername: okampus-admin
   httpPassword: root
+  GLOBAL_HEADERS:
+    X-TENANT-ID: myefrei
 dataPropertyOrder:
   "&":
     - base_url
     - base_url_
     - httpUsername
     - httpPassword
+    - GLOBAL_HEADERS
+  "&~|GLOBAL_HEADERS":
+    - X-TENANT-ID
 color: null
 isPrivate: false
 metaSortKey: 1625818872086

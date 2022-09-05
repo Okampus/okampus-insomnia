@@ -1,26 +1,26 @@
-_id: req_e69cd297a01745528347ba22b602c923
+_id: req_a9d90692908c488b8250033ea0a68af6
 type: Request
-parentId: fld_d3bd287cbbb44e648de25d2141a703b9
-modified: 1662154374691
-created: 1643039525903
-url: "{{ _.base_url }}/auth/login"
-name: /auth/login
+parentId: fld_ab50b96e524740e4afcb8fe91c91d3cd
+modified: 1662360364667
+created: 1662359754882
+url: "{{ _.base_url }}/teams/labels"
+name: /teams/labels
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"username": "okampus-admin",
-    	"password": "root"
+    	"name": "Catégorie",
+    	"type": "Category"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_a709dd0229bc4c6c885d63c2296834cb
+    id: pair_d76a6db324e6434ab6548cb29979d918
 authentication: {}
-metaSortKey: 250
+metaSortKey: -1662359754882
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

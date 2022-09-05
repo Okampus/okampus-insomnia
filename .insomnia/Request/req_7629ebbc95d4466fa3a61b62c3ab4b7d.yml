@@ -1,0 +1,37 @@
+_id: req_7629ebbc95d4466fa3a61b62c3ab4b7d
+type: Request
+parentId: fld_12fbac4d3d4a477b9a14d9227c154994
+modified: 1660247622016
+created: 1660229732468
+url: "{{ _.base_url_ }}/tenants/tenants"
+name: /tenants/tenants
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_d4a8c84e79ac42289636c96219431f19
+      name: id
+      value: epitafdsgdfds
+      description: ""
+    - id: pair_52c757a084cf456bbc0cf9878646b0e0
+      name: logo
+      value: ""
+      description: ""
+      type: file
+      fileName: /home/iv-stpn/Pictures/pointing hand.png
+parameters: []
+headers:
+  - id: pair_dadd21a2292c4be69a4a29efc72ca6f5
+    name: Content-Type
+    value: multipart/form-data
+    description: ""
+authentication: {}
+metaSortKey: -1660229732468
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

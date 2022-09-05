@@ -1,7 +1,7 @@
 _id: req_e5b29700fee84799886c87224ee1aff7
 type: Request
 parentId: fld_0b74fe2b74f643dd8ad74f5dd2290131
-modified: 1653038553118
+modified: 1660601206073
 created: 1643039526144
 url: "{{ _.base_url }}/files/profile-images"
 name: /files/profile-images
@@ -15,8 +15,12 @@ body:
       value: ""
       description: ""
       type: file
-      fileName: /Users/elliotmaisl/Documents/Wallpapers/Colorful BeeHive.jpg
+      fileName: /home/iv-stpn/Desktop/okampus/apps/site/src/assets/img/logos/logo_light.png
       disabled: false
+    - id: pair_42b56c210df54448a7d46502a7468af7
+      name: type
+      value: avatar
+      description: ""
 parameters: []
 headers:
   - name: Content-Type

@@ -1,7 +1,7 @@
 _id: req_2238fabaf3d6465d8324f667dc2b8281
 type: Request
 parentId: fld_f42f05851c684b0c9553e574fe528fdb
-modified: 1658945422219
+modified: 1660353547165
 created: 1643040039701
 url: "{{ _.base_url }}/threads"
 name: /threads
@@ -13,7 +13,9 @@ body:
     {
     	"title": "This is a title",
     	"type": 1,
-    	"assignees": [],
+    	"assignedTeams": [],
+    	"assignedUsers": [],
+    	"scope": "everyone",
     	"tags": ["bonjour", "oui"],
     	"body": "# Ceci est un header\ntest, test\nCeci est un paragraphe\n- Ceci\n- est\n- une\n- liste !\n\nahah et *la* y'a du **formatting** [lien](http://example.com)",
     	"isAnonymous": false

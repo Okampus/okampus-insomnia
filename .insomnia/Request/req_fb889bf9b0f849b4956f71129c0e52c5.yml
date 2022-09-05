@@ -1,26 +1,24 @@
 _id: req_fb889bf9b0f849b4956f71129c0e52c5
 type: Request
 parentId: fld_b153b9e47c6e474897aa200570f6b3a3
-modified: 1660054886551
+modified: 1660488019847
 created: 1651570683055
-url: "{{ _.base_url }}/teams/events/1"
+url: "{{ _.base_url_ }}/teams/events/42"
 name: /teams/events/{teamId}
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: >-
+  text: |-
     {
-    	"start": "2022-08-11T22:40:11.564Z",
-    	"end": "2022-08-12T22:40:11.564Z",
-    	"name": "Rézal",
-    	"description": "Rejoignez-nous pour participer à notre LAN annuelle 🖱️🕹️",
-    	"location": "Bâtiment A",
+    	"start": "2022-08-22T16:40:11.564Z",
+    	"end": "2022-08-22T18:40:11.564Z",
+    	"name": "[L3] Révision Java",
+    	"description": "Révisions des chapitres 1 à 3 !",
+    	"location": "En ligne",
     	"private": false,
     	"state": "submitted",
-    	"meta": {
-    		"preconditions": "Un cable ethernet"
-    	}
+    	"meta": {}
     }
 parameters: []
 headers:
